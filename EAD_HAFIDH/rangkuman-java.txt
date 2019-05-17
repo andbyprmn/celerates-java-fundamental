@@ -1,0 +1,71 @@
+#VARIABLE DAN TIPE DATA
+
+Variables are containers for storing data values.
+In Java, there are different types of variables, for example:
+
+String - stores text, such as "Hello". String values are surrounded by double quotes
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+boolean - stores values with two states: true or false
+
+To create a variable, you must specify the type and assign it a value:
+
+Syntax
+type variable = value;
+
+
+#CONSTANT VARIABLE
+
+A constant is a variable whose value cannot change once it has been assigned. Java doesn't have built-in support for constants, but the variable modifiers static and final can be used to effectively create one.
+
+Constants can make your program more easily read and understood by others. In addition, a constant is cached by the JVM as well as your application, so using a constant can improve performance. 
+
+Static Modifier
+This allows a variable to be used without first creating an instance of the class; a static class member is associated with the class itself, rather than an object. All class instances share the same copy of the variable.
+This means that another application or main() can easily use it.
+For example, class myClass contains a static variable days_in_week:
+
+public class myClass {
+   static int days_in_week = 7;
+}
+Because this variable is static, it can be used elsewhere without explicitly creating a myClass object:
+
+public class myOtherClass {  
+   static void main(String[] args) {
+       System.out.println(myClass.days_in_week);
+   }
+ }
+
+Final Modifier
+The final modifier means that the variable's value cannot change. Once the value is assigned, it cannot be reassigned. 
+Primitive data types (i.e., int, short, long, byte, char, float, double, boolean) can be made immutable/unchangeable using the final modifier.
+Together, these modifiers create a constant variable.
+
+static final int DAYS_IN_WEEK = 7;
+
+Note that we declared DAYS_IN_WEEK in all caps once we added the final modifier. It's a long-standing practice among Java programmers to define constant variables in all caps, as well as to separate words with underscores.
+Java doesn't require this formatting but it makes it easier for anyone reading the code to immediately identify a constant.
+
+#Operator
+Operators are used to perform operations on variables and values.
+
+The value is called an operand, while the operation (to be performed between the two operands) is defined by an operator
+
+Arithmetic operators are used to perform common mathematical operations.
+
+Operator	Name		Description					Example	
++		Addition	Adds together two values			x + y	
+-		Subtraction	Subtracts one value from another		x - y	
+*		Multiplication	Multiplies two values				x * y	
+/		Division	Divides one value from another			x / y	
+%		Modulus	Returns the division remainder				x % y	
+++		Increment	Increases the value of a variable by 1		++x	
+--		Decrement	Decreases the value of a variable by 1		--x 
+
+
+#KESIMPULAN
+Varibel adalah sesuatu untuk menyimpan nilai suatu data.
+Variabel Konstan adalah variabel yang nilainya tidak bisa diubah
+Format melakukan Operasi Aritmatika:
+<variable> = <variabel1> <operator> <variabel2>

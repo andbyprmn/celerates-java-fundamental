@@ -1,0 +1,8 @@
+kesimpulan java bahasanya ribet dan ga cocok buat pemula karena print hello world panjang
+public static void main(String[] args) {
+        System.out.println("Hello World!");
+}
+
+variable adalah tempat penampungan data sementara dan tipe data ada long,integer, string
+
+operator aritmatika ada tambah + kurang - kali * bagi/ sisa bagi %
