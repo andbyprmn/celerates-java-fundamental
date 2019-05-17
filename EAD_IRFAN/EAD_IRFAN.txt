@@ -1,10 +1,43 @@
 1. Celerates Java Fundamental
 
 Di sini kita melakukan langkah2 untuk mencetak kata "Hello World!" 
-dengan menggunakan perintah System.out.println("Hello World!");
+dengan menggunakan perintah kata kunci System.out.println("Hello World!");
 
 
 2. Variabel Tipe Data
 
-Tipe data terbagi diantaranya 
+Ada beberapa macam tipe data diantaranya adalah :
+- String : untuk teks
+  contoh : String name = "Irfan";
+
+- int : untuk angka
+  contoh : int umur = 23;
+
+- float : untuk angka desimal
+  contoh : float nilai = 85.6;
+
+- char : untuk karakter huruf
+  contoh : char huruf = "X";
+
+- boolean : untuk menampilkan opsi benar dan salah
+  contoh : boolean myBool = true;
+
+
+3. Operator Aritmatika
+
+Ada beberapa macam operator aritmatika yang sering dijumpai, yaitu :
+- Addition (+)
+  contoh : int a = 6 + 3;
+
+- Substraction (-)
+  contoh : int a = 10 - 5;
+
+- Multiplication (*)
+  contoh : int x = 15 * 10;
+
+- Division (/)
+  contoh : int y = 20 / 5;
+
+- Modulo (%) 
+  contoh : int u = 23 % 6;
 
