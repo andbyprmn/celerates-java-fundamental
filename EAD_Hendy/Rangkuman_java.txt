@@ -1,0 +1,14 @@
+pada hari ini saya mendapatkan pembelajaran dasar mengenai java 
+
+Variabel :
+variabel merupakan tempat menyimpan nilai sementara
+
+tipe data :
+merupakan jenis data yang tersimpan dalam variabel,seperti int string dll
+
+konstanta: sama seperti variabel namun tipe datanya tidak bisa berubah,penulisannya dimulai dengan final
+
+aritmatika:
+aritmatika merupakan operator yang dilakukan untuk melakukan perhitungan matematika seperti *,%,/,-,+
+operator ini kedepannya sangat berguna untuk melakukan perhitungan diskon dll,
+perlu diketahui bahwa operator aritmatika berbeda dengan operator penugasaan
