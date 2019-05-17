@@ -1,0 +1,22 @@
+Java Fundamental
+
+1. Variabel dan Tipe data
+Variabel adalah tempat untuk menaruh tipe data yang dideklarasikan. Penamaan variabel mengikuti aturan huruf awal kecil untuk kata kedua diawali huruf kapital. 
+
+Tipe Data:
+- Tipe data primitive: float, long, short, byte, char, double, dll. 
+	float = untuk tipe data desimal
+	double = tipe data desimal yang lebih panjang dari float
+	char = tipe data yang terdiri dari satu karakter
+- Tipe data non-primitive : String, array, dan classes
+	String = tipe data yang terdiri dari beberapa karakter dan biasanya menggunakan " "
+
+2. Variabel Konstanta:
+   Biasanya digunakan untuk mengunci nilai variabel sehinggan menjadi nilai kontanta yang    bersifat tetap. Penggunaan variabel konstanta jarang digunakan dalam pembuatan web karena    tidak disarankan, hanya digunakan untuk mempermudah pekerjaan seperti pemberian nilai pada    variabel url untuk mempermudah dalam pemanggilan kembali apabila ada perubahan di kemudian    hari.
+
+3. Operator Aritmatika
+   Ada 5 jenis operator aritmatika:
+   - Penambahan (+) 
+   - Pengurangan (-)
+   - Perkalian (*)
+   - Pembagian (/)
