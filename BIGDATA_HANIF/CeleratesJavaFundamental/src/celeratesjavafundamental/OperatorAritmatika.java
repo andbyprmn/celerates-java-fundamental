@@ -9,12 +9,19 @@ package celeratesjavafundamental;
  *
  * @author Hanif
  */
-public class VariabelTipeData {
-    
-    
+public class OperatorAritmatika {
     public static void main(String[] args) {
-        String nama = "Muhammad Hanif";
-        String telp = "0812345";
-        System.out.println(nama + "\n" + telp);
+        System.out.println(
+            (2+3)
+            + "\n"
+            + (2-5)
+            + "\n"
+            + (8/4)
+            + "\n"
+            + (89*5)
+            + "\n"
+            + (78%19)
+        );
     }
+    
 }
