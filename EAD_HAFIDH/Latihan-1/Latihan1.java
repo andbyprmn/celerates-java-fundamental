@@ -33,7 +33,6 @@ public class Latihan1 {
         Scanner in = new Scanner(System.in);
         int gajiKotor = in.nextInt();
         System.out.println("Gaji Bersih Anda: " + (gajiKotor - (gajiKotor *= 0.1)) + "\n\n");
-        in.close();
         
     }
 }
