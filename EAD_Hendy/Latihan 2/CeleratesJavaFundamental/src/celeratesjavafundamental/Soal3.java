@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Soal3 {
     public static void main(String[] args) {
         // deklarasi variabel dan Scanner
-        int Menjual, jasa, bayar, komisi = 0;
+        int Menjual, jasa = 0, bayar, komisi = 0;
         String Belanja;
         Scanner scan = new Scanner(System.in);
 
@@ -29,14 +29,10 @@ public class Soal3 {
             if (Menjual == 2000000) {
                 jasa = 100000;
                 komisi = (int) (0.1*Menjual);
-            } else if (Menjual > 2000000) {
+            } else if (Menjual > 2000000 && Menjual < 5000000 ) {
                 jasa = 200000;
                 komisi = (int) (0.15*Menjual);
-            }else if (Menjual < 5000000) {
-                jasa = 200000;
-                komisi = (int) (0.15*Menjual);
-            } else {
-            if (Menjual > 5000000) {
+            }else if (Menjual > 5000000) {
                 jasa = 300000;
                 komisi = (int) (0.2*Menjual);
             } else {
@@ -51,4 +47,4 @@ public class Soal3 {
         System.out.println("Total Pendapatan Sales: Rp " + bayar);
         }  
     }
-}
+
