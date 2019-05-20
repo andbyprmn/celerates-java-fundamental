@@ -7,16 +7,19 @@ package celeratesjavafundamental;
 
 /**
  *
- * @author Hanif
+ * @author hendy nurfriyanto
  */
-public class CeleratesJavaFundamental {
-
-    /**
-     * @param args the command line arguments
-     */
+public class VariabelTipeData {
     public static void main(String[] args) {
-        
-        System.out.println("Hello World");
-        
+           String nama,Telepon;
+
+       
+       nama ="hendy";
+       Telepon ="085716221255";
+
+       
+       System.out.println("Nama Saya : " + nama);
+       System.out.println("Telepon :   " + Telepon);
     }
-  }  
+    
+}
