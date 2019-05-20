@@ -22,15 +22,15 @@ public class Salesman {
         Scanner sell = new Scanner(System.in); // Create a scanner object
         System.out.println("Input jumlah penjualan (contoh = 2000000) : ");
         double sellInt = sell.nextInt();
-        if(sellInt == 2000000) {
+        if(sellInt >= 2000000) {
             add = add + 100000 + (0.1 * sellInt);
-            System.out.println(add);
+            System.out.println("Pendapatan salesman :" + add);
         } else if(sellInt > 2000000 && sellInt <= 5000000) {
             add = add + 200000 + (0.15 * sellInt);
-            System.out.println(add);
+            System.out.println("Pendapatan salesman :" + add);
         } else {
             add = add + 300000 + (0.2 * sellInt);
-            System.out.println(add);
+            System.out.println("Pendapatan salesman :" + add);
         }
     }
 }
