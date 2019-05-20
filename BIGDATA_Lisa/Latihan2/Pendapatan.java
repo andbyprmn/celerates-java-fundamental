@@ -5,13 +5,20 @@
  */
 package celeratesjavafundamental;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Lisa Fita Sari
  */
 public class Pendapatan {
-    public static void main (String[] args) {            
-        int pendapatanHariItu = 10000000;
+    public static void main (String[] args) {
+        int pendapatanHariItu;
+        
+        Scanner gaji = new Scanner(System.in);
+        System.out.println("masukan nilai gaji");
+        pendapatanHariItu=gaji.nextInt();
+        
         double komisi;
         int uangJasa;
         if(pendapatanHariItu <= 2000000){
