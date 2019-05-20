@@ -1,0 +1,11 @@
+Java Fundamental 
+
+17 Mei 2019
+
+Fundamental
+
+*bahasa premograman yang dapat digunakan di multi platform
+
+*Compiler (cuma bisa jalan di satu environment) : C, C++
+*Interpreter : PHP, Javascript, Action script
+*Hybrid : Java, VB.net, Python, 

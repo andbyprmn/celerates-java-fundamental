@@ -1,0 +1,67 @@
+Rangkuman: 
+
+
+Mempelajari struktur dasar dari java mulai dari membuat sebuah kelas
+dengan nama CeleratesJavaFundamental didalam package com.cellerates.
+javafundamental disini kita dapat menyimpulkan bahwa kelas di dalam 
+suatu package merupakan cara penempatan/penamaaan di dalam java dengan
+tujuan lebih terstruktur.
+
+
+Type Data: 
+
+Java sendiri merupakan bahasa yang strongly typed sehingga kita tidak bisa 
+mengabaikannya, pada java type data haruslah dideklarasikan terlebih dahulu, 
+karenanya tipe data tersebut berguna untuk menampung nilai dari variabel tersebut.
+
+terdapat dua jenis tipe data di dalam java: 
+- Type data primitive
+- reference  
+
+Type data primitive sendiri terdiri dari: 
+- Byte : merupakan type data integer 8 bit yang digunakan untuk 
+         menampung angka dalam rentang yang lebih kecil 
+- Short : type data integer 16 bit yang digunakan untuk menampung 
+          angka dalam rentang menengah antar -32.768 sampai 32.767
+- int : merupakan type data integer 32 bit yang digunakan untk 
+        menampung angka dalam rentang yang cukup besar
+- long : type data integer 64 bit yang digunakan untuk menampung
+         angka yang lebih besar dari type data int
+- float : type data untuk menyimpan angka decimal 
+- double : merupakan type data yang dapat menyimpan seperti float 
+           namun memiliki kapasitas lebih besar 
+- boolean : type data yang hanya memiliki dua nilai bena atau salah
+- char : type data yang dapat menyimpan karakter di bungkus dengan ''
+
+Type data referrence 
+
+Tipe data reference merupakan sebuah tipe data yang merujuk ke sebuah objek atau instance dari sebuah class.
+
+
+
+Definisi: 
+  Variabel = merupakan suatu wadah atau tempat yang memiliki nama dan 
+             digunakan untuk menyimpan sebuah nilai. 
+  contoh   = Sebuah gelas peruntukan awalnya untuk menyimpan sebuah air 
+             tapi wadah yang bernama gelas tersebut juga dapat digunakan 
+             untuk menampung pasir.
+
+Langkah dalam memahami Variabel:
+  - Deklarasi  : mendaftarkan variabel ke dalam lingkup yang sesuai 
+  
+  - Inisialisasi : penyedian memori untuk variabel  
+
+  - Assignment : untuk menempatkan nilai yang spesifik kemudian disimpan 
+                 kedalam variable 
+
+
+Contoh: String nama (pada kasus variabelTipeData) ini berarti saya secara 
+        langsung mendeklarasikan dan menginisialisi variabel bernama "nama"
+        ini berarti variabel nama akan di daftarkan dalam lingkup yang sesuai 
+        lalu akan dipesan satu blok memori untuk menyimpan nilai didalamnya
+
+
+        sedangkan langkah Assignment seperti penjumlahan = 9 + 10 (pada kasus operatorAritmatika) 
+        ini berarti hasil dari operator"+" akan disimpan di dalam "penjumlahan".
+
+            
