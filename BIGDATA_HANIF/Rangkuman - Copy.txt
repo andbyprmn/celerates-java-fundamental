@@ -1,0 +1,23 @@
+Java -> bahasa pemrograman tingkat tinggi yang berkonsep "object oriented programming"
+
+Variable pada java:
+	-> Variable merupakan tempat menampung dari suatu nilai
+
+Tipe data pada java:
+	-> jenis data dari nilai yang ditampung pada variable
+
+Jenis - jenis tipe data:
+	-> secara umum tipe data dibagi menjadi dua:
+		- Primitive Data Type:
+			byte, short, int, long, float, double, boolean, char
+		- Non-Primitive Data Typ:
+			Strings, Arrays, Classes, Interfaces, dll
+
+Operator aritmatika pada java:
+	+  penjumlahan
+	-  pengurangan
+	*  perkalian
+	/  pembagian
+	%  modulus
+	++ incremetn
+	-- dcrement
