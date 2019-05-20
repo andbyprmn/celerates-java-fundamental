@@ -1,0 +1,33 @@
+1. Variabel Tipe Data 
+Variabel adalah sesuatu yang digunakan untuk menyimpan nilai atau mewakili suatu elemen data, seperti jk untuk jenis kelamin, ttl untuk tempat tanggal lahir dan sebagainya. Pada variabel ini, suatu nilai bisa diubah-ubah atau bersifat dinamis. 
+
+Tipe data yaitu jenis atau macam dari suatu data. Pada java terdapat dua tipe data, yaitu :
+a. Tipe data primitif/sederhana
+Tipe data ini diantaranya:
+-Int : untuk tipe data angka atau bilangan bulat
+-Float : untuk bilangan desimal
+-Double : untuk bilangan desimal dengan kapasitas yang lebih besar
+-Char : untuk tipe data karakter
+-Boolean : untuk tipe data yang hanya bernilai true dan false
+
+b. Tipe data referensi
+-Class 
+sebuah kesatuan yang terintegrasi antara method dan data yang mengacu pada suatu objek.
+
+- Array 
+tipe data bentukan yang terdiri dari kumpulan tipe data lain
+
+-Interface 
+Interface merupakan sekumpulan method yang hanya memuat deklarasi dan struktur method, tanpa detail implementasinya.
+
+2. Variabel Konstanta
+Konstanta adalah suatu tempat untuk menampung data yang nilainya selalu tetap dan tidak pernah berubah.
+
+3. Operasi Aritmatika
+Operasi aritmatika digunakan untuk operasi matematika. Pada umumnya operator untuk operasi aritmatika terdiri dari:
+- Addition (+) = operator penjumlahan
+- Substraction (-) = operator pengurangan
+- Multiplication (*) = operator perkalian
+- Division (/) = operator pembagian
+- Modulus (%) = operator untuk mengetahui sisa hasil pembagian
+

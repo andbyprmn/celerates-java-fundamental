@@ -33,6 +33,9 @@ Secara prinsip, konstanta memiliki kemiripan dengan variabel. Keduanya digunakan
 
 final tipe_data namaKonstanta = nilai;
 
+contoh program Java :
+final double PI = 3.4;
+
 Operator Aritmatika
 
 Untuk melakukan operasi aritmatika pada Java terdapat beberapa jenis operator yang digunakan diantaranya :
@@ -42,3 +45,18 @@ Untuk melakukan operasi aritmatika pada Java terdapat beberapa jenis operator ya
 * untuk perkalian
 / untuk pembagian
 % untuk sisa hasil bagi
+
+contoh program Java :
+int a = 2;
+int b = 4;
+int sum, sub, mul, div, mod;
+sum = a + b;
+sub = a - b; 
+mul = a * b;
+div = a / b;
+mod = a % b;
+System.out.println("Sum = " + sum);
+System.out.println("Subtract = " + sub);
+System.out.println("Multiply = " + mul);
+System.out.println("Divide = " + div);
+System.out.println("Modulo = " + mod);
