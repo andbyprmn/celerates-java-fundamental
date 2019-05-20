@@ -9,21 +9,16 @@ import java.util.Scanner;
 
 /**
  *
- * @author Hafidh Adhi
+ * @author Muhammad Hanif
  */
-
-
-public class CeleratesJavaFundamental {
-
-    /**
-     * @param args the command line arguments
-     */
-    
+public class java_io {
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hellow World");
-        Scanner cin = new Scanner(System.in);
-        String coba = cin.nextLine();
+        System.out.print("Masukan input: ");
+        Scanner S = new Scanner(System.in);
+        String a = S.nextLine();
+        
+        System.out.println("\ninput: ");
+        System.out.println(a);
     }
     
 }

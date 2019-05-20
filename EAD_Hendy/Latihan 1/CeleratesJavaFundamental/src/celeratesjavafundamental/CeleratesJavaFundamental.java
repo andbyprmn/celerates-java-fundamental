@@ -5,25 +5,19 @@
  */
 package celeratesjavafundamental;
 
-import java.util.Scanner;
-
 /**
  *
- * @author Hafidh Adhi
+ * @author hendy nurfriyanto
  */
-
 
 public class CeleratesJavaFundamental {
 
     /**
      * @param args the command line arguments
      */
-    
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hellow World");
-        Scanner cin = new Scanner(System.in);
-        String coba = cin.nextLine();
+        System.out.println("Hello word");
     }
     
 }
