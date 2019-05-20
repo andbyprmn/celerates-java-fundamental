@@ -7,19 +7,13 @@ package celeratesjavafundamental;
 
 /**
  *
- * @author hendy nurfriyanto
+ * @author Muhammad Hanif
  */
-public class VariabelTipeData {
+public class DataTypeConversion {
+    
     public static void main(String[] args) {
-           String nama,Telepon;
-
-       
-       nama ="hendy";
-       Telepon ="085716221255";
-
-       
-       System.out.println("Nama Saya : " + nama);
-       System.out.println("Telepon :   " + Telepon);
+        int v = Integer.parseInt("60");
+        System.out.println(v);
     }
     
 }
