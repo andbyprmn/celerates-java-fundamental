@@ -5,18 +5,20 @@
  */
 package celeratesjavafundamental;
 
+import java.util.Scanner;
+
 /**
  *
- * @author Hanif
+ * @author Muhammad Hanif
  */
-public class CeleratesJavaFundamental {
-
-    /**
-     * @param args the command line arguments
-     */
+public class java_io {
     public static void main(String[] args) {
+        System.out.print("Masukan input: ");
+        Scanner S = new Scanner(System.in);
+        String a = S.nextLine();
         
-        System.out.println("Hello World");
-        
+        System.out.println("\ninput: ");
+        System.out.println(a);
     }
-  }  
+    
+}

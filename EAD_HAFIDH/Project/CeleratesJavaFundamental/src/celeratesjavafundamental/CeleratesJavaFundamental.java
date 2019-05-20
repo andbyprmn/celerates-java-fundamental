@@ -5,6 +5,8 @@
  */
 package celeratesjavafundamental;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Hafidh Adhi
@@ -20,6 +22,8 @@ public class CeleratesJavaFundamental {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("Hellow World");
+        Scanner cin = new Scanner(System.in);
+        String coba = cin.nextLine();
     }
     
 }

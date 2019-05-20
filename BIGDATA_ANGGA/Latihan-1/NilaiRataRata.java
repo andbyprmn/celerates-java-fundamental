@@ -7,16 +7,16 @@ package celeratesjavafundamental;
 
 /**
  *
- * @author Hanif
+ * @author AnggaFMP
  */
-public class CeleratesJavaFundamental {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+public class NilaiRataRata {
+    
+    public static void main (String[]args){
         
-        System.out.println("Hello World");
+        int avg = (30+30+60)/3;
         
+        System.out.println(avg);
+       
     }
-  }  
+    
+}

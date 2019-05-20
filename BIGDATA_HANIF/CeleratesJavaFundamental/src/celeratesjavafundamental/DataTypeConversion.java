@@ -7,16 +7,13 @@ package celeratesjavafundamental;
 
 /**
  *
- * @author Hanif
+ * @author Muhammad Hanif
  */
-public class CeleratesJavaFundamental {
-
-    /**
-     * @param args the command line arguments
-     */
+public class DataTypeConversion {
+    
     public static void main(String[] args) {
-        
-        System.out.println("Hello World");
-        
+        int v = Integer.parseInt("60");
+        System.out.println(v);
     }
-  }  
+    
+}
