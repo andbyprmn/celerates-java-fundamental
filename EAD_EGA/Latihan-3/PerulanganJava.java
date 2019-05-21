@@ -10,7 +10,7 @@ public class PerulanganJava {
             System.out.print(i + "\n");
             sum+=i;
         }
-        System.out.print("Total = " + sum + "\n");
+        System.out.print("Total = " + sum + "\n\n");
 
         i = 0;
         sum = 0;
@@ -21,13 +21,13 @@ public class PerulanganJava {
         }
         while(i<10);
 
-        System.out.print("Total = " + sum + "\n");
+        System.out.print("Total = " + sum + "\n\n");
 
         sum = 0;
         for(i = 1; i<=10; i++) {
             System.out.print(i + "\n");
             sum+=i;
         }
-        System.out.print("Total = " + sum + "\n");
+        System.out.print("Total = " + sum + "\n\n");
     }
 }
