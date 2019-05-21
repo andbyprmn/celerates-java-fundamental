@@ -18,13 +18,13 @@ public class PerulanganJava {
         int b = 0;
         System.out.println();
         System.out.println("Perulangan do while:");
-
         do {
-            System.out.println(b);
             b++;
-            a=a+b;
-        } while ( b < 10);
-        System.out.println("Totalnya =" +a);
+            System.out.println(b);
+            a+=b;
+        } 
+        while ( b <10);
+        System.out.println("Totalnya =" + a);
              
                      int i = 0;
                      int y =0;
@@ -32,9 +32,9 @@ public class PerulanganJava {
         System.out.println("Perulangan while:");
 
         while (i < 10) {
-            System.out.println( i );
             i ++;
-            y=y+i;
+            System.out.println( i );
+            y+=i;
         }{
         System.out.println( "toatl= "+y );
 
@@ -46,7 +46,7 @@ public class PerulanganJava {
 
          for( int x : j ){
             System.out.println(x + " ");
-            k=k+x;
+            k+=x;
          }
          System.out.println("Total = " + k);
         
@@ -54,13 +54,13 @@ public class PerulanganJava {
                 jml=0;
      System.out.println();
      System.out.println("Perulangan for:");
-        for(x=0;x<=10;x++)  
+        for(x=1;x<=10;x++)  
         {
-            jml=jml+x;
+            jml+=x;
                System.out.print(x+" ");     
         }
         
         System.out.println(); 
-        System.out.println("Total jumlah :"+jml); 
+        System.out.println("Total jumlah :"+jml);     
     }    
 }

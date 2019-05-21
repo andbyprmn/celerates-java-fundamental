@@ -1,0 +1,44 @@
+Latihan 4 -- Nanang Suwandana --
+
+1. Faktorial
+-Program ini dibuat untuk mencari nilai faktorial dari suatu bilangan. 
+- Terdapat dua kali looping, pertama melakukan looping untuk mengulang angka yang akan di faktorialkan (i) dimana batas bawah bilangan yang akan difaktorial adalah 0, dan batas atasnya yaitu 3 (kurang dari 4) dan bertambah dengan increment 1
+- Looping kedua yaitu untuk nilai faktor. Nilai inisial faktor adalah 2, dan ketika nilai angka kurang dari 2 (0 atau 1) maka nilai faktorialnya akan bernilai 1. 
+
+Solusi :
+ long batas = 4;
+ long faktorial = 1;
+        
+ for (int i = 0; i < batas; i++) {
+     faktorial = 1;
+     for (int faktor = 2; faktor <= i; faktor++)
+         faktorial*=faktor;
+ 
+     System.out.println(i+"!"+" adalah = "+faktorial);
+ }
+
+
+Keterangan :
+Syntax yang diubah hanya dibagian batas perulangan for kedua, dimana faktor <1 diubah menjadi faktor <= 1
+
+Faktorial di bawah 2 (0! dan 1!) akan selalu memiliki nilai 1 karena tidak memenuhi kondisi for kedua.
+
+2. Perulangan Do While 
+- Program ini berfungsi untuk membuat perulangan secara random pada nilai double.
+- Program ini digunakan untuk melakukan perulangan secara random dimana nilai terendah yaitu 0 dan akan berhenti ketika nilai randoman melebihi 0.990
+- Menggunakan fungsi Math.random yang berfungsi untuk mengacak sebuah angka dengan nilai input yang telah ditentukan.
+- Bila hasil random memenuhi kondisi while maka akan terus melakukan randoming dan akan berhenti ketika hasil randoman terkahir melebihi 0.990
+
+3. Perulangan For
+- Program ini digunakan untuk mencari luas lingkaran dengan rumus phi * radius*radius. 
+-Perintah loopingnya terdapat pada baris script  for (double jari = 1.0; jari <= 2.0; jari+=0.2). 
+- Maksudnya yaitu nilai jari (radius) diberi nilai 1 dan jika jari mencapai 2 maka sistem akan berhenti mencetak, dan jari+=0.2 adalah tiap nilai jari yang dicetak akan ditambahkan 0.2. 
+-Sedangkan untuk nilai phi menggunakan variabel konstanta. 
+-Kemudian untuk output yang akan ditampilkan berupa radius (untuk jari-jari lingkaran) dan Luas (untuk nilai luas lingkaran). 
+
+4. Perulangan While
+- Program ini dibuat dengan menggunakan Math.random. 
+- Program ini digunakan untuk melakukan perulangan secara acak dimana nilai terendah yaitu 0 dan akan berhenti melakukan randoming ketika hasil randoman melebihi 0.990
+- Jika nilai inisiasi r diganti dengan r=1 maka pada perulangan while tidak akan melakukan randoming.
+
+   

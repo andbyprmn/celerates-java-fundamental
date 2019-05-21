@@ -1,0 +1,53 @@
+-Faktorial
+terdapat class bernma Faktorial dimana terdapat variabel batas dan faktorial dengan tipe data long
+batas mempunyai nilai 4,sedangkan faktorial mempunyai nilai 1
+definisikan for dengan i bertipe data int dengan nilai awal 0 yang artinya saat dirun 
+akan memulai dari 0
+,dan i mempunyai nilai kurang dari nilai batas yang artinya mempunyai batas 4 dan saat dirun akan menghasilkan
+nilai 0,1,2,3 faktorial
+dan i++ yang artinya i = 1 +i
+definisikan variabel faktorial lg dengan nilai 1
+untuk for ke 2 untuk menentukan hasil dari faktor dimn faktor bertipe int dengan nilai 1
+dan nilai faktor kurang dari i,faktor ++ artinya nilai faktor = 1+ faktor
+lalu untuk perhitungan faktorialnya dengan cara i * faktor
+lalu di print sysop nilai i ditambah print kata + hasil faktorial
+
+terdapat salah pada perhitungan faktorial yang sebelumnya faktorial *= faktor harusnya
+faktorial = i*faktor,dan nilai faktor yang harusnya 2 berubah menjadi 1
+
+        long batas = 4;
+        long faktorial = 1;
+        
+        for (int i = 0; i < batas; i++) {
+            faktorial = 1;
+            for (int faktor = 1; faktor < i; faktor++)
+                faktorial=i*faktor;
+            
+            System.out.println(i+"!"+" adalah = "+faktorial);
+        }
+
+
+-for2
+pada class Perulnganfor2 menggunakan for each untuk menghitung luas
+pada for definisikan jari dengan tipe double dan nilai 1.0,jari kurang dari sama dengan 2.0 serta setiap 
+jari ditambahkan 0.2/ jari = jari+0.2
+lalu print dengan cara radius + jarijarinya + luas = dengan perhitungan jari*Math.Pi*jari
+math.Pi merupakan class Math yang menyediakan rumus rumus perhitungan dalam matematika
+
+
+-PerulanganWhile
+pada perulangan while merupakan perulangan selama kondisi tersebut bernilai true dan perulangan while akan berhenti bila nilainya tersebut false
+pada class perulangan while ditujukan untuk melkukan pengacakan angka denga 0,x secara rndom
+pertama definisikan variabel r dengan bertipe double r =0
+lalu lakukan perulangan while dengan kondisi r kurang dari 0.99d,0.99d artinya 
+nilai belakang koma sampe bertemu 0.99
+lalu melakukan pengacakan angka dengan metod math secara random sampai bertemu dengan batas 0.99
+lalu di print r dengan sysop r
+
+-perulangandowhile
+pada perulangan do while ini sebenernya sama dengan while namun pada do/while ini mempunyai cara kerja lakukan satu kali perulangan
+terlebih dahulu baru melakukan pengecakan kondisi yang arti perulangan do dulu,
+awal mula definisikan r dengan nilai 0 bertipe data double
+lalu lakukan perulangan dengan do dimana r akan diacak secara random dengan math.random
+lalu di print
+lalu buat kondisi perulangan r kurang dari 0,99
