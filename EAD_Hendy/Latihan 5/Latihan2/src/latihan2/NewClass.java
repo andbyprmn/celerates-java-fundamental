@@ -12,20 +12,20 @@ package latihan2;
  */
 public class NewClass {
     
-   public void bola(int diameter){
-    int radius = diameter/2;
-    double v = (1.333)*Math.PI*Math.pow(radius,3);
+   public void bola(double diameter){
+    double r = diameter/2;
+    double v = (4/3)*Math.PI*Math.pow(r,3);
        System.out.println(v);
     }
    
     public void tabung (double tinggi, double diameter) {
-        double volumeT = (Math.PI*tinggi*Math.pow(diameter, 2))/4;
-        System.out.println(volumeT);
+        double vT = (Math.PI*tinggi*Math.pow(diameter, 2))/4;
+        System.out.println(vT);
     }
     
     public void kerucut(int diameter){
-    int radius = diameter/2;
-    double volumekeru = (Math.PI*Math.pow(radius,3))/3;
-        System.out.println(volumekeru);
+    int r = diameter/2;
+    double vk = (Math.PI*Math.pow(r,3))/3;
+        System.out.println(vk);
     }
 }

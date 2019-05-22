@@ -19,27 +19,26 @@ public class Latihan2 {
     public static void main(String[] args) {
         int diameter;
         int tinggi;
-        
         Scanner input = new Scanner(System.in);
         NewClass lingkaran = new NewClass();
 
-        System.out.print("masukan diameter = ");
+        //inputan diameter dan tinggi
+        System.out.print("Masukan diameter = ");
         diameter = input.nextInt();
         
-        System.out.print("volume Bola=");
-        lingkaran.bola(diameter);
-        
-        System.out.print("Masukan nilai tinggi : ");
+        System.out.print("Masukan nilai tinggi = ");
         tinggi = input.nextInt();
         
-        System.out.print("volume tabung=");
+        //hasil volume;
+        System.out.println("Hasil Volumenya adalah : ");
+        System.out.print("Volume Bola = ");
+        lingkaran.bola(diameter);
+        
+        System.out.print("Volume tabung = ");
         lingkaran.tabung(tinggi, diameter);
         
-        System.out.print("volume kerucut= ");
+        System.out.print("Volume kerucut = ");
         lingkaran.kerucut(diameter);
-
-        
-       
     }
     
 }
