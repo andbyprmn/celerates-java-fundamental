@@ -10,10 +10,9 @@ public class Faktorial {
         long batas = 4;
         long faktorial;
         
-        System.out.println(0+"!"+" adalah = "+1);
-        for (int i = 1; i < batas; i++) {
-            faktorial = i;
-            for (int faktor = 2; faktor < i; faktor++)
+        for (int i = 0; i < batas; i++) {
+            faktorial = 1;
+            for (int faktor = 2; faktor <= i; faktor++)
                 faktorial*=faktor;
             
             System.out.println(i+"!"+" adalah = "+faktorial);
