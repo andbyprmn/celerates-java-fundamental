@@ -1,7 +1,7 @@
 Muhammad Hanif Ramadhan
 
 >> PerulanganDoWhile.java
-	pada class ini berisikan program yang menggunakan perulangan
+	pada fiel java ini berisikan program yang menggunakan perulangan
 	Do While untuk menampilkan angka random dari method random()
 	yang berasal dari math. perulangan akan terus berjalan selama
 	nilai yang dihasilkan dari random() masih lebih kecil dari 0,99
@@ -12,7 +12,7 @@ Muhammad Hanif Ramadhan
 
 
 >> PerulanganFor2.java
-	pada class ini terdapat perulangan 'for' yang berisikan
+	pada file java ini terdapat perulangan 'for' yang berisikan
 	perintah untuk menghitung luas lingkaran. jari - jari dari
 	lingkaran itu sendiri berdasarkan nilai variable 'jari'
 	di mana variable 'jari' sendiri digunakan untuk pengkondisian
@@ -28,7 +28,7 @@ Muhammad Hanif Ramadhan
 
 
 >> PerulanganWhile.java
-	pada class ini terdapat program perulangan 'while' yang berisikan
+	pada file java ini terdapat program perulangan 'while' yang berisikan
 	perintah untuk menampilkan angka yang dihasilkan dari method random()
 	
 	prinsip kerja dari 'while sendiri mirip dengan perulangan Do While
@@ -37,7 +37,7 @@ Muhammad Hanif Ramadhan
 
 
 >> Faktorial.java
-	pada class ini terdapat program perulangan 'for' yang digunakan
+	pada file java ini terdapat program perulangan 'for' yang digunakan
 	untuk menghitung beberapa bilangan faktorial. Tujuan dari program
 	adalah menghitung bilangan faktorial sesuai dengan jumlah perulangannya.
 	Dengan inisialisasi variable 'batas' = 4 dan variable 'faktorial' = 1
