@@ -1,0 +1,40 @@
+Latihan 4
+
+Firdha Maulidya Swari
+
+*Perulangan Do While
+- inisialisasi awal r bertipe data double = 0
+- program ini akan melakukan looping menampilkan nilai r dengan tipe data double, dimana nilai r lebih kecil dari 0.99d (dengan decimal up to 15 digit).
+- menggunakan fungsi Math.random() untuk mengambil angka dari rentang 0 sampai dengan 1 secara acak.
+- kalau kondisi terpenuhi, maka do/while akan melanjutkan perulangan. Sebaliknya, dia akan berhenti (break).
+
+*Perulangan For2
+- program ini melakukan perulangan yang berfungsi untuk menghitung luas lingkaran
+- nilai jari-jari (r) di mulai dari 1 sampai 2, dengan nilai increment 0.2
+- jadi, program ini akan menghitung luas lingkaran dengan jari-jari 1, 1.2, 1.4, 1.6, 1.8 sampai 2
+- Hasil outputnya, akan muncul, nilai radiusnya dan nilai luasnya
+
+
+*Perulangan While
+- inisialisasi awal r bertipe data double = 0
+- program ini akan melakukan looping untuk mengambil data double secara acak dengan fungsi Math.random() jika nilai r lebih kecil dari 0.99d.
+- nilai r lebih kecil dari 0.99d (dengan decimal up to 15 digit)
+
+
+*Faktorial
+- program ini berfungsi untuk melakukan penghitungan nilai faktorial
+- terdapat dua kali looping, yaitu untuk mengulang angka yang akan di faktorialkan (i)
+  dimulai dari 0, bertambah sampai dengan 3 (karena kurang dari 4), dan bertambah dengan increment 1
+- looping kedua untuk nilai faktor. Nilai inisial dari faktor = 2, jika nilai angka kurang dari faktor, maka looping kedua tidak jalan, jadi nilai faktorialnya = 1.
+  Jika nilai angka lebih besar sama dengan 2, maka looping kedua akan berjalan, dan menghitung nilai faktorial yang sebenarnya
+- kode awal yang diberikan tidak dapat menghitung nilai faktorial dengan benar, berikut kode setelah di perbaiki
+
+	long batas = 4;
+        long faktorial = 1;
+        
+        for (int i = 0; i < batas; i++) {
+            faktorial = 1;
+            for (int faktor = 2; faktor <= i; faktor++)
+                faktorial*=faktor;
+            
+            System.out.println(i+"!"+" adalah = "+faktorial);
