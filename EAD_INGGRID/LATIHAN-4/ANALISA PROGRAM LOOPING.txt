@@ -1,0 +1,46 @@
+1. PROGRAM FAKTORIAL
+--> program ini bertujuan untuk menghitung nilai faktorial dari angka 1-9 (tergantung inisilisasi
+    nilai yang ingin dihitung). Program ini menggunakan nested looping. Looping yang pertama
+    berguna untuk melakukan perhitungan angka yang akan di lakukan faktorisasi, sedangkan
+    looping yang kedua berguna sebagai proses perhitungan faktorialnya.
+    Pada program yang sebelumnya terdapat kesalahan, dan berikut ini source code solusi yang
+    saya berikan :
+	long batas = 9;
+        long faktorial = 1;
+        
+        for (int i = 0; i < batas; i++) {
+            faktorial = 1;
+            for (int faktor = 2; faktor <= i; faktor++) 
+                faktorial*=faktor;
+            
+            System.out.println(i+"!"+" adalah = "+faktorial);
+
+    pada program sebelumnya, di looping yang kedua, pengkondisian = faktor < i 
+    terjadi kesalahan pada hitungan faktorisasi karena, jika nilai faktor selalu lebih kecil
+    dari i, maka perhitungan akan salah. maka dari itu solusi yang saya berikan ialah mengubah
+    kondisi dari batas faktor  menjadi = faktor <=i dan perhitungan yang dikeluarkan sesuai.
+
+2. PROGRAM PERULANGAN DENGAN DO WHILE
+--> program ini bertujuan untuk menampilkan nilai r secara random
+    dengan menggunakan fungsi Math.random();
+    output yang keluar ialah angka random dalam bentuk desimal karena r diberikan
+    kondisi batas nilai yang dikeluarkan harus lebih kecil dari 0.99. Maka
+    dari itu, variabel r di deklarasikan dengan tipe data double yang bisa
+    menyimpan nilai dalam bentuk desimal.
+
+3. PROGRAM PERULANGAN DENGAN WHILE
+--> fungsi program ini sama dengan program perulangan dengan do while sebelumnya.
+    bertujuan untuk menampilkan nilai r secara random dengan menggunakan fungsi 
+    Math.random();
+    output yang keluar ialah angka random dalam bentuk desimal karena r diberikan
+    kondisi batas nilai yang dikeluarkan harus lebih kecil dari 0.99. Maka
+    dari itu, variabel r di deklarasikan dengan tipe data double yang bisa
+    menyimpan nilai dalam bentuk desimal.
+
+4. PROGRAM PERULANGAN DENGAN FOR
+--> program ini bertujuan untuk menghitung luas dari sebuah lingkaran dari radius/jari-jari
+    yang akan bertambah besar besar.
+    variabel jari-jari dideklarasi dengan tipe data double dengan batas awal jari-jari 
+    adalah 1.0 dan diberi kondisi penambahan jari-jari sebesar 0.2 disetiap perulangan
+    batas akhir perulangan adalah saat ukuran jari-jari lebih kecil dari sama dengan 2.
+    Perhitungan luas lingkaran menggunakan fungsi Math dan PI.
