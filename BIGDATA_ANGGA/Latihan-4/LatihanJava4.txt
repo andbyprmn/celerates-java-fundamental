@@ -1,0 +1,33 @@
+#Faktorial
+	Pada program ini adalah menghitung faktorial, dimana dalam faktorial bilangan asli n adalah hasil perkalian antara bilangan bulat positif yang kurang atau sama dengan n. Pada program ini menggunakan perulangan 'for' untuk menghitung beberapa bilangan faktorial, tujuannya ada menghitung bilangan faktorial dengan batas 4 dan variabel faktorial 1.
+	Terdapat dua kali looping, pertama melakukan looping untuk mengulang angka yang akan di faktorialkan (i) dimana batas bawah bilangan yang akan difaktorial adalah 0, dan batas atasnya yaitu 3 (kurang dari 4) dan bertambah dengan increment 1Looping kedua yaitu untuk nilai faktor. Nilai inisial faktor adalah 2, dan ketika nilai angka kurang dari 2 (0 atau 1) maka nilai faktorialnya akan bernilai 1. 
+	Solusi :
+	long batas = 4;
+	long faktorial = 1;
+
+	for (int i = 0; i < batas; i++) {
+     faktorial = 1;
+     for (int faktor = 2; faktor <= i; faktor++)
+         faktorial*=faktor;
+
+     System.out.println(i+"!"+" adalah = "+faktorial);
+ }
+
+#PerulanganDoWhile
+	Para program java ini yaitu melakukan perhitungan angka random dengan range antara 0-1, program ini akan melakukan looping menampilkan nilai r dengan tipe data double, dimana nilai r lebih kecil dari 0.99d. 
+	cara kerja do while sendiri dimana program akan menjalankan perintah yang berada di dalam 'do' baru kemudian menjalankan pengecekan hasil pada while. 
+	kalau kondisi terpenuhi, maka do/while akan melanjutkan perulangan. Sebaliknya, dia akan berhenti (break).
+
+#PerulanganFor
+	program ini melakukan perulangan yang berfungsi untuk menghitung luas lingkaran
+	nilai jari-jari (r) di mulai dari 1 sampai 2, dengan nilai increment 0.2, program ini akan menghasilkan perhitungan luas lingkaran dengan range jari2 tersebut.
+	Hasil outputnya, akan muncul, nilai radiusnya dan nilai luasnya
+	
+#Perulangan While
+	pada program java ini prinsipnya berbeda dengan perulangan do-while dimana akan melakukan perulangan kalau kondisi atau syaratnya terpenuhi dahulu.
+	inisialisasi awal r bertipe data double = 0
+	program ini akan melakukan looping untuk mengambil data double secara acak dengan fungsi Math.random() jika nilai r lebih kecil dari 0.99d.
+	nilai r lebih kecil dari 0.99d.
+	
+	
+	
