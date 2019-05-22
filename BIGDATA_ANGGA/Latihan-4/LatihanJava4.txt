@@ -6,9 +6,9 @@
 	long faktorial = 1;
 
 	for (int i = 0; i < batas; i++) {
-     faktorial = 1;
-     for (int faktor = 2; faktor <= i; faktor++)
-         faktorial*=faktor;
+     	faktorial = 1;
+     	for (int faktor = 2; faktor <= i; faktor++)
+        faktorial*=faktor;
 
      System.out.println(i+"!"+" adalah = "+faktorial);
  }
