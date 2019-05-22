@@ -1,0 +1,72 @@
+Muhammad Hanif Ramadhan
+
+>> PerulanganDoWhile.java
+	pada class ini berisikan program yang menggunakan perulangan
+	Do While untuk menampilkan angka random dari method random()
+	yang berasal dari math. perulangan akan terus berjalan selama
+	nilai yang dihasilkan dari random() masih lebih kecil dari 0,99
+
+	cara kerja do while sendiri adalah program akan menjalankan perintah
+	yang berada di dalam 'do' baru kemudian melakukan pengecekan pengkondisian
+	pada while
+
+
+>> PerulanganFor2.java
+	pada class ini terdapat perulangan 'for' yang berisikan
+	perintah untuk menghitung luas lingkaran. jari - jari dari
+	lingkaran itu sendiri berdasarkan nilai variable 'jari'
+	di mana variable 'jari' sendiri digunakan untuk pengkondisian
+	pada program perulangan 'for'
+
+	untuk penggunaan 'jari' sebagai pengkondisian dapat dijelaskan
+	sebagai berikut:
+	1. statement pertama berisikan inisialisasi nilai 'jari' sebesar 1,0
+	2. statement ke dua berisikan limitasi pengulangan dengan kondisi 
+	   nilai 'jari' lebih kecil sama dengan 2,0
+	3. statement ke tiga berisikan increment (penambahan) nilai 'jari pada
+	   setiap pengulangannya
+
+
+>> PerulanganWhile.java
+	pada class ini terdapat program perulangan 'while' yang berisikan
+	perintah untuk menampilkan angka yang dihasilkan dari method random()
+	
+	prinsip kerja dari 'while sendiri mirip dengan perulangan Do While
+	hanya saja pada while pengecekan pengkondisian dilakukan di awal sebelum
+	isi perintah dari perulangannya dijalankan.
+
+
+>> Faktorial.java
+	pada class ini terdapat program perulangan 'for' yang digunakan
+	untuk menghitung beberapa bilangan faktorial. Tujuan dari program
+	adalah menghitung bilangan faktorial sesuai dengan jumlah perulangannya.
+	Dengan inisialisasi variable 'batas' = 4 dan variable 'faktorial' = 1
+
+	program perulangan 'for' digunakan secara nested 2 lapis. 
+	
+	Lapis pertama merupakan perulangan utama dengan inisialisasi nilai 
+	pengkondisian i = 0, berjalanan selama i < batas, dan penambahan 1 
+	nilai pada variable i untuk setiap perulangannya. kemudian isi dari
+	perulangan lapis pertama terdapat assignment nilai faktorial sebesar 1
+
+	Lapis ke dua merupakan perulangan dengan inisialisasi pengkondisian
+	faktor =  2, berjalan selama faktor < i, dan penambahan 1 nilai
+	pada variable 'faktor' untuk setiap perulangannya. Pada lapis ke dua
+	ini berisikan program perkalian nilai 'faktorial' dengan 'faktor' yang
+	hasilnya ditampung di dalam variable 'faktorial'
+	
+	output dari program ini sendiri masih kurang sesuai dengan hasil faktorial
+	seharusnya. Berikut adalah solusi dari permasalahan tersebut:
+
+
+	long batas = 4;
+        long faktorial;
+        
+        System.out.println(0+"!"+" adalah = "+1);
+        for (int i = 1; i < batas; i++) {
+            faktorial = i;
+            for (int faktor = 2; faktor < i; faktor++)
+                faktorial*=faktor;
+            
+            System.out.println(i+"!"+" adalah = "+faktorial);
+        }
