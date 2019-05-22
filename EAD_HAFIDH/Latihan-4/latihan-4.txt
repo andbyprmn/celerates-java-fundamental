@@ -1,0 +1,48 @@
+======================FAKTORIAL==========================
+
+Hasil Faktorial masih salah, syntax yang benar:
+	long batas = 4;
+        long faktorial = 1;
+        
+        for (int i = 0; i < batas; i++) {
+            faktorial = 1;
+            for (int faktor = 2; faktor <= i; faktor++)
+                faktorial*=faktor;
+            
+            System.out.println(i+"!"+" adalah = "+faktorial);
+        }
+*Keterangan: Syntax yang diubah hanya dibagian batas perulangan
+ for kedua (dari faktor < i saya ubah jadi faktor <= i)
+
+*faktorial di bawah 2 (0!, 1!) akan selalu memiliki 
+nilai faktorial = 1 (karena tidak memenuhi kondisi for kedua)
+
+
+======================PERULANGAN DO-WHILE==========================
+
+Program yang dibuat akan terus melakukan random nilai double. 
+Program akan berhenti melakukan randomming ketika hasil randoman 
+terakhir melebihi 0.990. 
+
+Hasil Perulangan Do-While dan While dalam
+kasus ini tidak memiliki perbedaan karena inisialisasi awal nilai
+r sudah memenuhi syarat perulangan while. Jika inisialisasi nilai 
+r = 0 diganti dengan nilai r melebihi kondisi dalam while (misal r = 1)
+maka untuk Perulangan While tidak akan melakukan randomming,
+sedangkan Perulangan Do-While akan setidaknya akan merandom nilai 1 x
+dan bila hasil randoman memenuhi kondisi while maka akan terus melakukan 
+randoming dan akan berhenti melakukan randomming ketika hasil randoman terakhir 
+melebihi 0.990
+
+
+======================PERULANGAN FOR2==========================
+
+Program akan menghitung luas lingkaran dengan variasi nilai 
+radius 1.2, 1.4, 1.6 dst sampai 2.0 
+(dengan kenaikan nilai radius 0.2)
+
+======================PERULANGAN WHILE==========================
+
+Program yang dibuat akan terus melakukan random nilai double. 
+Program akan berhenti melakukan randomming ketika hasil randoman 
+terakhir melebihi 0.990
