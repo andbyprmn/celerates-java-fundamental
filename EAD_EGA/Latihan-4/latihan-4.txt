@@ -1,6 +1,7 @@
 Faktorial
 
-Class Faktorial bekerja untuk menghitung suatu perhitungan faktorial dengan prinsip matematika pada umumnya, program berjalan dengan tahapan sebagai berikut :
+Class Faktorial bekerja untuk menghitung suatu perhitungan faktorial dengan prinsip matematika pada umumnya, program berjalan dengan 
+tahapan sebagai berikut :
 1. Menginisiasi dua variabel dengan tipe data long (ukuran 64 bit) yaitu batas dengan nilai 10 dan faktorial dengan nilai 1
 2. Menjalankan perulangan for dengan nilai awalan 0 yang diinisiasi ke dalam variabel i dengan batas nilai i kurang dari nilai variabel 
 batas artinya perulangan berhenti pada nilai variabel i < nilai variabel batas dan nilai i ditambahkan dengan 1 tiap loopnya
