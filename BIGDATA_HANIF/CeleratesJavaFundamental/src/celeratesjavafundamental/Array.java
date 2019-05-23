@@ -11,17 +11,17 @@ package celeratesjavafundamental;
  */
 public class Array {
     public static void main(String[] args) {
-        int[] nilaiArray = new int[5];
-        nilaiArray[0] = 1;
-        nilaiArray[1] = 2;
-        nilaiArray[2] = 3;
-        nilaiArray[3] = 4;
-        nilaiArray[4] = 5;
+        int[] nilaiArray1 = new int[5];
+        nilaiArray1[0] = 1;
+        nilaiArray1[1] = 2;
+        nilaiArray1[2] = 3;
+        nilaiArray1[3] = 4;
+        nilaiArray1[4] = 5;
         
-        int[] nilaiArray1 = {1,2,3,4,5,6,7,8,9};
+        int[] nilaiArray2 = {1,2,3,4,5,6,7,8,9};
         
-        System.out.println(nilaiArray[3]);
-        System.out.println(nilaiArray1[5]);
+        System.out.println(nilaiArray1[3]);
+        System.out.println(nilaiArray2[5]);
     }
     
 }

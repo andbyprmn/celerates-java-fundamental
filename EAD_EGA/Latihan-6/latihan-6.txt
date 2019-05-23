@@ -1,0 +1,94 @@
+- Keyword This
+
+this adalah kata kunci pada Java yang digunakan untuk mengakses kelas itu sendiri
+
+contoh :
+class namaKelas{
+	String cobaThis;
+	
+	void cariNama(String cobaThis){
+		$this.cobaThis = cobaThis;
+	}
+}
+
+- Overloading
+
+Jika kita menginginkan suatu proses yang berbeda pada suatu metode fungsi yang sama maka pada Java kita dapat melakukan suatu kemampuan Java yang disebut dengan overloading yaitu terdapat beberapa metode dengan nama metode yang sama namun parameternya berbeda
+
+Contoh :
+
+void hasilJual(int diskon){
+	var total = 10000 * diskon;
+	System.out.println("Hasil jual = " + total);
+}
+
+void hasilJual(int diskon, int pajak){
+	var total = 10000 * diskon + pajak;
+	System.out.println("Hasil jual = " + total);
+}
+
+- Constructor
+
+Mirip metode cuma bedanya constructor bisa langsung diakses hanya dengan mendeklarasikan objek
+contoh :
+pada kelas a (bukan kelas yang utama)
+
+       public  Talents(String message){
+           System.out.println(message);
+       
+       }
+
+Pada main untuk melakukan pemanggilannya
+ketikan
+
+Talents talent = new Talents("dengan para");
+System.out.println(talent);
+
+- Access Modifier
+
+Adalah hak akses yang ditujukan pada variabel, metode atau kelas. Terdapat 4 jenis hak akses :
+
+1. Default (tanpa hak akses)
+Adalah hak akses yang hanya dapat diakses oleh package itu sendiri dan kelas itu sendiri
+
+2. Private
+Hak akses yang hanya dapat diakses oleh kelasnya sendiri (di dalam kelasnya)
+
+3. Public
+Hak akses yang dapat diakses di semua kelas
+
+4. Protected 
+Hak akses yang dapat diakses dalam satu package, satu kelas dan turunan kelas
+
+- Package dan Import
+
+Package adalah suatu folder atau subfolder yang berada pada project Java yang telah dibuat dengan tujuan untuk mengelompokkan atau mengatur kelas di Java
+
+contoh :
+package namaPackage.subPackage.FileJava;
+
+Import dilakukan jika membutuhkan untuk memanggil kelas dari file yang berbeda package.
+Misal pada kelas a terdapat method namaMethod maka jika ingin mengakses metode tersebut pada file kelas yang lain dibutuhkan untuk mengimpor dari kelas a dengan format :
+
+Import namaPackage.subPackage.namaKelas;
+
+- Encapsulation
+
+Encapsulation adalah suatu proses membungkus variabel ke dalam suatu metode. 
+
+Deklarasi :
+public class namaKelas{
+	private String nama;
+	
+	public String getNama(){
+		return this.nama;
+	}
+	
+	public void setNama(String nama){
+		this.nama = nama;
+	}
+}
+
+- Java Beans
+
+Adalah implementasi encapsulation yang membedakan Java Beans sudah diset dalam pembuatan metodenya yaitu getNamaAtribut untuk mengambil data dan setNamaAtribut untuk memodifikasi atribut dan untuk tipe data boolean menggunakan isNamaAtribut dan setNamaAtribut
