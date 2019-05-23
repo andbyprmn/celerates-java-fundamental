@@ -1,0 +1,34 @@
+LATIHAN 6
+
+1. Keyword 'this'
+Berguna sebagai referensi dari variabel yang mengacu ke objek yang sedang aktif 
+(objek yang digunakan).
+
+2. Overloading
+Overloading adalah pendeklarasian method (fungsi ataupun prosedur), constructor dengan nama 
+yang sama tapi mempunyai parameter yang berbeda.
+
+3. Constructor
+Constructor mempunyai fungsi yang sama dengan method hanya saja yang membedakan ialah pada 
+contructor tidak digunakan return, void, serta tipe data. Penamaan constructor juga harus sesuai
+dengan nama kelas dimana constructor tersebut dibuat. Tapi penggunaan constructor kurang efisien
+karena kita harus melakukan pendeklarasian ulang pada fungsi main.
+
+4. Access Modifier
+Access modifier merupakan akses yang digunakan untuk mengakses atribut yang sudah dibuat. Ada 4
+macam access modifier : default(jarang digunakan), publik(bisa diakses pada class dan package lain),
+private(hanya bisa diakses pada class yang sama), serta protected.
+ 
+5. Package&import
+Jika dianalalogikan package seperti toples dan class merupakan kuenya. Jadi package seperti folder
+yang berisi kumpulan class. Sedangkan import adalah hal yang dilakukan jika kita ingin mengakses
+suatu class yang berada di package lain.
+
+6. Encapsulation
+Encapsulation adalah sebuah proses untuk membungkus/mengenkapsulasi atribut dalam suatu method
+dan di set dengan access modifier private. Jadi untuk melakukan akses atribut tersebut harus
+melalui suatu method/method lain.
+
+7. Java Beans
+Merupakan implementasi dari enkapsulasi. Java beans juga dikenal dengan nama getter and setter.
+Fungsinya untuk mengakses atribut yang sudah dibuat dalam sebuah method.

@@ -1,0 +1,56 @@
+#THIS
+-this digunakan untuk menegaskan bahwa atribut atau method yang ditulis
+setelah this. berada di dalam kelas ini dan di luar suatu method di kelas
+ tersebut (kelas dimana this ini ditulis).
+-this tidak dapat ditulis di dalam sebuah class (di luar method)
+-this hanya dapat ditulis di dalam sebuah method dan yang bukan static
+
+#OVERLOADING
+-adalah keadaan ketika dua method atau lebih memiliki nama sama
+-syarat overloading: memiliki tipe data method berbeda, atau tipe data
+ parameter berbeda, atau jumlah parameter berbeda
+-nama parameter di dalamnya sama tidak masalah asal salah satu syarat di 
+atas sudah terpenuhi
+
+#CONSTRUCTOR
+-adalah method yang dijalankan seketika setelah suatu objek dibuat
+-nama constructor harus sama dengan nama kelasnya
+
+#Access Modifier
+-adalah aturan oleh siapa saja suatu variable, method, atau class tersebut 
+bisa dipanggil atau diakses. Tipenya:
+	-Default (tidak tertulis tipe access modifiernya): artinya suatu 
+		variable, method, atau class tersebut hanya bisa diakses 
+		oleh class itu sendiri dan class lain dalam satu
+		package
+	-Private: artinya suatu variable, method, atau class tersebut hanya 
+		bisa diakses oleh class itu sendiri
+	-Public: artinya suatu variable, method, atau class tersebut bisa 
+		diakses oleh semua class, baik yang se-package ataupun yang
+ 		tidak
+	-Protected: artinya suatu variable, method, atau class tersebut 		
+		hanya bisa diakses oleh class lain dalam satu package dan 
+		class anak dari class tersebut
+
+#Package & Import
+-format standar para programmer dalam membuat package: 
+com.namapackage.subpackage
+-package berisi class class
+-class class ini bisa diakses dari luar package tsb dengan perintah import
+-format standarnya: 
+	-import com.namapackage.subpackage (untuk mengimport 
+		semua kelas dalam package tsb)
+	-import com.com.namapackage.subpackage.namakelas (untuk mengimport 
+		kelas tertentu dalam package tsb)
+
+#Encapsulation
+-proses membungkus atribut/variable ke dalam suatu method
+-atribut tersebut biasanya sengaja disembunyikan dari class dan package 
+lain
+-maka dari itulah enkapsulasi dibuat (untuk mengakses dan mengubah nilai 
+atribut tersembunyi tersebut)
+
+#Java Beans
+-implementasi enkapsulasi dalam netbeans
+-dengan ini, kita tinggal klik kanan, insert code, lalu pilih getter and setter
+-getter setter tidak muncul untuk class static (cmiiw)
