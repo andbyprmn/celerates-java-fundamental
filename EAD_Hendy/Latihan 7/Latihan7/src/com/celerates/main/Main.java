@@ -13,27 +13,27 @@ public class Main {
       
        story a = new story();
        feed b = new feed();
-       a.foto ="aggresive mang";
-       a.tgl ="20-04-1993";
-       a.caption="rahasia itu merupakan hal yang ...";
-       b.foto ="ceria";
-       b.caption="terbuka itu merupakan hal yang paling....";
-       b.like= 300000;
-       b.comment=" saya suka yang seperti ini";
+       a.setFoto("aggresive mang");
+       a.setTgl("20-09-90");
+       a.setCaption("sedih membawa petaka");
+       b.setFoto("Senyum dong");
+       b.setCaption("senyum membawa berkah");
+       b.setLike(99999999);
+       b.setComment("Teeeeer baiiiik ....!");
        
        //printnya foto story
         System.out.println("foto :");
-        System.out.println("Foto strory ="+a.foto);
-        System.out.println("tanggal ="+a.tgl);
-        System.out.println("Caption = "+a.caption);
+        System.out.println("Foto strory = "+a.getFoto());
+        System.out.println("tanggal = "+a.getTgl());
+        System.out.println("Caption = "+a.getCaption());
         System.out.println(" ");
         
         //print feed
         System.out.println("fotoynya :");
-        System.out.println("foto feed = "+b.foto);
-        System.out.println("caption = "+b.caption);
-        System.out.println("like =" +b.like);
-        System.out.println("commentnya =" +b.comment);
+        System.out.println("foto feed = "+b.getFoto());
+        System.out.println("caption = "+b.getCaption());
+        System.out.println("like = " +b.getLike());
+        System.out.println("commentnya = " +b.getComment());
     }
     
 }
