@@ -16,7 +16,19 @@ public class CeleratesJavaFundamental {
      */
     public static void main(String[] args) {
         
-        System.out.println("Hello World");
-        
+       oop_mobil obj = new oop_mobil();
+       String merkMobil = obj.merkMobil;
+       String nomorRangka = obj.nomorRangka;
+       nomorRangka = "12345";
+       merkMobil = "Honda";
+       System.out.println(merkMobil + nomorRangka);
+       
+       // memanggil method
+       obj.engineOn("Honda");
+       obj.engineOff();
+       System.out.println(obj.speed());
+       
+        System.out.println("jarak tempuh: "+obj.jarakTempuh(60,3600));
+        System.out.println("waktu tempuh: "+obj.waktuTempuh(126,60));
     }
   }  
