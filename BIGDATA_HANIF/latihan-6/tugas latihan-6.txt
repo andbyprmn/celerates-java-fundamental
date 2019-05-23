@@ -1,0 +1,38 @@
+Muhammad Hanif Ramadhan
+
+>> This
+	digunakan untuk menunjuk suatu variable yang dimiliki oleh class yang sama dengan
+	method yang menggunakannya.
+	syarat penggunaan "this" adalah apabila nama paramater suatu method sama dengan nama
+	variable yang dimiliki class tersebut.
+
+>> Overloading
+	overloading adalah metode pembuatan method/procedure/function/constructor dengan nama
+	yang sama tapi dengan parameter yang berbeda.
+
+>> Constructor
+	adalah fungsi yang otomatis akan langsung berjalan apabila kita mendeklarasikan
+	object dari suatu class.
+	syarat untuk membuat constructor adalah nama dari constructor itu sendiri harus sama
+	dengan nama class nya.
+
+>> Access Modifier
+	digunakan untuk memberikan jenis akses pada suatu variable, class, atau fungsi.
+	penggunaan tergantung kebutuhan. Misal untuk membuat suatu variable dapat diakses
+	oleh class dari package lain maka tambahkan "public" pada saat mendeklarasikan
+	suatu variable atau apabila kita ingin membuat suatu fungsi yang hanya bisa
+	diakses oleh class itu sendiri maka tambahkan "private" saat mendeklarasikan
+	suatu fungsi.
+
+>> Package & import
+	package adalah directory di dalam source package pada project java yang berisikan 
+	class - class java. jika dilihat dari file explorer package merupakan folder
+	yang berisikan file java yang kita buat.
+	import merupakan metode untuk dapat menggunakan resource yang berasal dari
+	package yang berbeda.
+
+>> Encapsulation
+	variable private yang dibawa oleh suatu method yang bersidat public
+
+>> Java Beans
+	merupakan sebuah class yang setiap variable nya memiliki method getter dan setter.

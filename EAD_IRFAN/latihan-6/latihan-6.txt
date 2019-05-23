@@ -1,0 +1,107 @@
+<-- || This || -->
+
+keyword 'this' digunakan untuk mengakses atribut pada class 
+yang akan digunakan dalam pembuatan method.
+
+example --> "this.nama = nama;"
+
+
+<-- || Overloading || -->
+
+fungsi dari fitur overloading adalah untuk membuat constructor yang sama
+dalam beberapa kali dengan masing-masing parameter yang berbeda,
+jika parameter nya sama maka akan terjadi error.
+
+example :
+
+public Talents() {
+        System.out.println("Constructor tanpa parameter");
+    }
+    
+    public Talents(String message) {  // using String
+        System.out.println("message");
+    }
+    
+    public Talents(int x) {  // using int
+        System.out.println(8);
+    }
+
+
+<-- || Constructor || -->
+
+constructor merupakan sebuah method dalam java yang dapat digunakan untuk
+menginisialisasi object sebuah constructor dapat dipanggil jika object dari sebuah class telah dibuat.
+nama constructor biasa nya harus sama seperti pada nama class nya, dan juga method ini tidak bisa menggunakan
+return seperti void.
+
+example :
+
+public Constructors(int y) {
+		x = y;	// Set the initial value for the class attribute 
+	}
+	
+	public static void main(String[] args) {
+		Constructors myCons = new Constructors(9);
+		System.out.println(myCons.x);
+	}
+
+
+<-- || Access Modifier || -->
+
+Modifier biasa nya digunakan untuk mengatur akses dari suatu class, attributes, methods dan constructors.
+
+Modifier terdiri dari :
+- public --> public class Celerates
+- default --> class Celerates
+- private --> private Celerates
+- protected --> protected Celerates
+
+
+<-- || Package & Import || -->
+
+Package di dalam java berfungsi untuk menampung dan mengatur class.
+tujuan menggunakan package adalah untuk menghindari kemungkinan konflik yang akan terjadi pada saat penamaan.
+
+Import biasa digunakan untuk memanggil class lain yang berada di package yang berbeda.
+example --> import com.celerates.model.Users;
+
+
+<-- || Encapsulation || -->
+
+Encapsulation menyediakan getter & setter, fitur ini bertujuan untuk memastikan bahwa
+data yang sensitif tersembunyi dari pengguna.
+
+example of getter & setter :
+
+public class Person {
+  private String name; // private = restricted access
+
+  // Getter
+  public String getName() {
+    return name;
+  }
+
+  // Setter
+  public void setName(String newName) {
+    this.name = newName;
+  }
+}
+
+
+<-- || Java Beans || -->
+
+Java Beans adalah class yang mengencapsulate beberapa objects ke dalam single object.
+
+example :
+
+public class TestNeab { 
+private String name; 
+public void setName(String name) 
+    { 
+        this.name = name; 
+    } 
+public String getName() 
+    { 
+        return name; 
+    } 
+} 
