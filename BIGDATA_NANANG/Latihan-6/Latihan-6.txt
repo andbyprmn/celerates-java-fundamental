@@ -1,0 +1,32 @@
+==== Latihan 6 ====
+
+1. This
+This digunakan pada pembuatan kelas dan digunakan untuk menyatakan objek saat ini, sehingga bisa digunakan untuk mengakses kelas sendiri. This biasanya untuk mengakses atribut kelas jika atribut dan parameter yang ada di method memiliki nama yang sama
+
+2. Overloading
+Pada java, overloading dimaksudkan untuk pemakaian beberapa method dengan penamaan yang sama tetapi dengan parameter yang berbeda. Perbedaan tersebut dapat berupa jumlah parameter maupun tipe datanya. 
+
+3. Constructor
+Merupakan suatu method khusus dimana nama method sama dengan nama class-nya. Dalam constructor tidak boleh menggunakan keyword void maupun return. 
+
+4. Access Modifier
+Access Modifier dapat digunakan pada method, class maupun atribut. Ada terdapat 4 jenis access modifier, yaitu :
+a. Default (tanpa hak akses)
+hanya dapat diakses oleh package dan kelas itu sendiri
+b. Private
+hanya dapat diakses oleh kelasnya sendiri
+c. Public
+dapat diakses di semua kelas
+d. Protected
+dapat diakses di dalam satu package, satu kelas dan sub kelas
+
+5. Package & import
+> Package adalah suatu tempat untuk mengelompokkan beberapa kelas atau interface menjadi suatu unit tunggal dalam library. 
+
+> Import berfungsi untuk memasukkan suatu kelas yang berada di luar package maupun untuk memasukkan dari library java.
+
+6. Enscapsulation
+Merupakan proses membungkus atau memaketkan sebuah variabel/atribut ke dalam suatu method. Pada enscapsulation penggunaannya yaitu dengan mendeklarasikan variabel sebagai private dan mengatur get dan set sebagai public. 
+
+7. Java Beans
+Java beans adalah implementasi dari enscapsulation. Java beans sama seperti model class pada umumnya, hanya saja ada ciri khusus yaitu suatu class harus memiliki sebuah constructor tanpa suatu argumen dan untuk setiap variabel harus memiliki setter dan getter. Method yang digunakan yaitu getNamaAtribut untuk mengambil data dan setNamaAtribut untuk memodifikasi atribut. Sedangkan khusus untuk data boolean menggunakan isNamaAtribut.
