@@ -1,0 +1,35 @@
+this. digunakan dalam mengisi variable dalam kelas yang sama. Hal inin dugnakan ketika
+akses kelas senidir jika atribut dan parameter yang ada dimethod memiliki nama yang sama.
+
+Overloading
+digunakan ketika ingin menggunakan method yang sama pada suatu class sehingga dapat digunakan 2 aatau lebih. yang 
+membedakan nantinya adalah parameter yang digunakan
+
+Constructor
+merupakan metode khusus yang digunakan pada saat inisialisasi persiapan data untuk objek
+akan tetapi diperlukan parameter untuk inputan dari constructor
+
+Access Modifier
+adalah perizinan dari suatu variable apakah dapat diakses di semua kelas atau tidak. Terdapat 4 jenis modifier pada
+java, antara lain:
+1. public bisa diakses semuanya
+2. protected bisa untuk class, package ,dan subclass
+3. no modifier untuk class dan package
+4. private untuk class saja.
+
+Package import
+package digunakan untuk membuat beberapa class di dalamnya. Ibarat kontainer yang bisa menampung banyak java class dll)
+dan package ini bisa diimport ke package lainnya 
+import juga bisa digunakan untuk mengambil library yang digunakan misalnya
+scanner yang digunakan untuk input dan output
+
+Encapsulation
+merupakan salah satu metode untuk menatur struktur pada kelas dengan cara menentukan
+hak akses pada property atau method.
+dapat juga diberi akses modifier untuk menentukan hak akses pada enkapsulasi
+
+Java Beans
+salah satu interface yang menggunakan konsepp OOP sehingga memudahkan kita untuk 
+membangun ulang program. sehingga menggunakan setter dan getter untuk mengakses
+variable sehingga dapat digunakan dalam constructor. Selain itu ketika definisi
+variable tipe data variablenya jagnan dibuat public seperti public String webToken;

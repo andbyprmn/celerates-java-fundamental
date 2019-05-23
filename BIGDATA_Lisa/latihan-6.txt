@@ -1,0 +1,55 @@
+		Penjelasan mengenai materi yang sudah dijelaskan 
+==================================================================================
+1. This
+Keyword this digunakan untuk mengakses atribut atau variabel yang berada didalam
+kelas itu sendiri, dengan syarat atribut dan parameter yang ada di dalam method
+memiliki nama yang sama. 
+
+2. Overloading 
+Kelebihan dari java addlah dapat memberikan penamaan yang sama dari beberapa
+method namun memiliki parameter yang berbeda. Dalam satu method dengan parameter 
+yang berbeda dapat memiliki beberapa tipe data yang berbeda. Sehingga memudahkan
+dalam pengkodean sehingga tak perlu membuat nama method baru. Dalam kondisi
+selanjutnya bisa memanggil nama method yang sama dengan nilai parameter yang berbeda.
+
+3. Contructor
+method khusus yang dapat dijalankan secara otomatis ketika objeknya dibuat.
+Constructor harus menggunakan nama yang sama dengan nama kelas. Constructor bisa
+menggunakan overloading didalamnya, serta menggunakan paramater didalamnya.
+
+4. Access Modifier
+Penggunaan access modifier dapat dilakukan pada atribut/variabel, method dan class.
+jenis2nya ada 4 yaitu:
+a. default -> hanya dapat diakses oleh package itu sendiri dan kelas itu sendiri
+b. private -> hanya bisa diakses classnya sendiri
+c. public -> bisa diakses di semua class
+d. protected -> bisa diakses di dalam satu package, satu kelas, dan sub kelas
+
+5. Package & import
+- package digunakan untuk menampung atau mengelompokan serta mengatur beberapa class
+  yang ada di java. 
+- import digunakan untuk memasukkan class java yang berada diluar package, import     juga bisa digunakan untuk memasukkan library yang ada di java.
+
+6. Encapsulation
+Biasanya digunakan untuk membungkus data, atau biasa disebut data hiding. Penggunaan
+encapsualtion adalah dengan mendeklarasikan variabel sebagai private kemudian pada 
+get dan set menggunakan access modifier sebagai public.
+
+syntax:
+public class NamaKelas{
+	private String nama;
+
+	public String getNama(){
+		return this.nama;
+	}
+	public void setNama(String nama){
+		this.nama = nama;
+	}
+
+7. Java Beans
+Java Beans adalah implementasi dari encapsulations, dimana sudah settle dalam
+pembuatan methodnya. Method yang digunakan yaitu getNamaAtribut untuk mengambil data
+dan setNamaAtribut untuk memodifikasi atribut. Pada boolean menggunakan isNamaAtribut
+dan setNamaAtribut.
+
+
