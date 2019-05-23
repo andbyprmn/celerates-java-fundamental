@@ -1,0 +1,44 @@
+Explanation :
+
+
+1. Faktorial Java : 
+	
+// tujuan dengan dibuat nya program ini adalah untuk mengetahui
+   jumlah faktorial dari angka 0 sampai dengan 3.
+   karena ditemukan kesalahan dalam program ini, maka saya akan memberikan solusi berupa
+   source code pada dibawah berikut :
+
+   long batas = 9;
+        long faktorial = 1;
+        
+        for (int i = 0; i < batas; i++) {
+            faktorial = 1;
+            for (int faktor = 2; faktor <= i; faktor++) 
+                faktorial*=faktor;
+            
+            System.out.println(i+"!"+" adalah = "+faktorial);
+
+
+2. Perulangan Do While :
+
+// program ini ditujukan untuk menampilkan nilai r secara random 
+   menggunakan fungsi Math.random(); 
+   tipe data yang digunakan untuk variabel r adalah tipe data double
+   karena bisa menyimpan nilai dalam bentuk desimal.
+
+
+3. Perulangan For :
+
+// fungsi dari program ini adalah untuk menghitung luas sebuah lingkaran
+   dari jari-jari yang akan semakin bertambah besar.
+   variabel yang dideklarasikan di dalam program ini menggunakan tipe data double. 
+   batas awal jari-jari adalah 1.0 dan diberi kondisi penambahan sebesar 0.2 
+   di tiap perulangan batas akhir.   
+
+
+4. Perulangan While :
+
+// fungsi dari program ini hampir sama dengan program do while sebelum nya,
+   dan juga menggunakan fungsi Math.random();
+   variabel r dalam program ini juga menggunakan tipe data double karena
+   bisa menampung nilai dalam bentuk desimal.

@@ -63,10 +63,12 @@ public String getWebtoken() {
 merupakan fungsi yang digunakan untuk mengakses file lain dalam package lain
 saat membuat peckage awal mula dengan com.celerates.nama berdasarkan
 nama tersebut akan membuat folder com,celerates, nama - diini namanyanya bisa berbeda misalkan 
-login /register dll
+login /register dll,
+untuk mainnya tambahkan import com.clerates.nama. nama file atau class 
 
 -Encapsulation
 merupakan fungsi yang digunakan untuk menyembunyikan atau memprotecksi dari suatu penyalah gunaan
 interfensi dari luar system
+
 
 
