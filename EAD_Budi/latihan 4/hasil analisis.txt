@@ -1,0 +1,25 @@
+FAKTORIAL
+pada bagian faktorial kita melihat batasnya terlebih dahulu dimana untuk filter 
+dari for pertama  membuat nilai i dapat terus meningkat 1 per satu kemudian masuk filter faktor dimana i harus di atas 2
+agar dapat berjalan
+sehingga ketika input i adalah 0,1,dan 2 maka nilai faktorial tetaplah 1
+sehingga outputnya adalah 1
+
+kemudian lanjut jika angka i ketika 3 maka fungsi for kedua akan dijalankan maka dihasilkan 2 dikali dengan satu menjadi 2.
+
+PERULANGAN DO WHILE
+kasus ini menggunakan data tipe double sehingga nilai r bisa menampilkan angka banyak
+di belakang koma
+ kemudain dugnakan juga fungsi random untuk mengenerate angka dan kemudian akan mengprint terush menerus hinggga saat nilai yang digenerate melebihi 0.99 maka generate angka random akan dihentikan
+pada kondisi do while variable r tidak perlu ditulis = 0 karena hanya akan dilakukan ketika r < 0.99
+
+Perulangan For2
+jari2 awalnya bernilai 1 dan akan terus menambahkan dirinnya sebanyak 0.2 hingga mencapai kurang dari 2.
+selama setiap penjumlahan dia akan menccari luas dengan mengalikan nilai jari dengan 3.14.
+setelah melewati jari > 1.4 dimana 1.5 ke atas akan dijumlahkan 0.1999 bukan 2 karena nilai double yang tidak 
+didefinsikan berapa angka di belakang koma
+
+perulangan while
+berbeda dengan perulangan while nilai R di sini perlu didefinisikan karena ketika masuk fungsi while dia 
+melihat nilai r sebelumnya sehingga perlu didefinsikan bisa dari 0-0.98 untuk menjalankannnya
+maka akan dilakukan generate random number hingga melewati 0.99 maka akan berhenti
