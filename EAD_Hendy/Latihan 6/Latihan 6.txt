@@ -1,0 +1,72 @@
+-this
+this disini digunakan untuk untuk referensi dari class itu sendiri
+cara menggukan this dengan cara mengetikan pertama deskripsikan 
+variabel dengan tipe data lalu dibawahnya ketikan
+        public void nikKaryawan(String nik){
+            this.nik = nik;
+            System.out.println(this.nik);
+
+pada file main
+deklarasikan terlebih dahulu object tersebut lalu print dengan code
+	Talents talent = new Talents();
+            System.out.println(talent);
+            talent.nikKaryawan("929292");
+            talent.alamat = "kolak";
+
+
+-overloading
+over loading merupakan method yang mempunyai nama yang sama namun mempunyai parameter yang berbeda
+contoh penggunaanya
+public nama {
+}
+
+public  nama(letak parameter) {
+}
+
+
+-constructor
+constructor merupakan method khusus yang akan di eksekusi pada saat pembuatan object
+awal mula pada class ketikan 
+
+       public  Talents(String message){
+           System.out.println(message);
+       
+       }
+lalu pada main untuk melakukan pemanggilannya
+ketikan
+
+Talents talent = new Talents("dengan para");
+System.out.println(talent);
+
+-acces modifer
+merupakan cara yang digunakan untuk memberikan hak akses untuk 
+mengakses variabel atau procedure 
+public digunakan untuk open semua 
+private digunakan untuk  hanya pada class itu sendiri yang dapat diakses
+protected digunakan untuk open semua namun hanya bisa diakses dalam package itu sendiri
+
+-java Beans
+merupakan gui yang digunakan untuk membuat instant set dan get name awal mula deklarasikan
+variabel dengan tipe datanya lalu klik kanan insert code pilih set get name dll.
+contohnya  hasilnya
+String webtoken;
+
+public String getWebtoken() {
+        return webtoken;
+    }
+
+    public void setWebtoken(String webtoken) {
+        this.webtoken = webtoken;
+    }
+
+-package dan import 
+merupakan fungsi yang digunakan untuk mengakses file lain dalam package lain
+saat membuat peckage awal mula dengan com.celerates.nama berdasarkan
+nama tersebut akan membuat folder com,celerates, nama - diini namanyanya bisa berbeda misalkan 
+login /register dll
+
+-Encapsulation
+merupakan fungsi yang digunakan untuk menyembunyikan atau memprotecksi dari suatu penyalah gunaan
+interfensi dari luar system
+
+
