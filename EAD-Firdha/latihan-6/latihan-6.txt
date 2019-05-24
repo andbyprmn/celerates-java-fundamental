@@ -1,0 +1,63 @@
+Latihan 6
+
+Firdha Maulidya Swari
+
+1. This
+- this digunakan untuk mengakses atribut kelas yang sudah dibuat, dan sebelumnya sudah dideklarasi terlebih dahulu
+  apabila atribut dan parameter di dalam suatu method memiliki nama yang sama
+- contoh penggunaan this
+	public class Talents {
+        	String nik;
+	
+	void niKaryawan (String nik) {
+		this.nik = nik;
+		System.out.println(this.nik);
+	}
+	}
+ atribut nik dalam kelas Talents memiliki nama yang sama dengan parameter nik, 
+ oleh karena itu this.nik = nik perlu ditambahkan agar dapat diakses dan dimunculkan di syso
+
+
+2. Overloading
+-  overloading digunakan untuk membuat nama method yang sama untuk parameter yang berbeda pada suatu kelas
+-  dapat digunakan untuk method, constructor, function dll
+-  syarat untuk dapat dilakukan overloading adalah memiliki tipe data parameter berbeda atau jumlah parameter berbeda ataupun tipe data method berbeda
+
+
+3. Constructor
+-  constructor adalah metode khusus yang dijalankan secara otomatis saat sebuah objek dibuat
+-  mirip seperti method, tetapi tidak ada tipe data method, tidak ada void dan tidak ada return seperti di method function
+-  constructor dapat langsung diakses, tidak seperti method
+-  dapat memiliki nilai parameter ataupun tidak memiliki
+-  penulisannya harus sesuai dengan nama kelasnya
+
+
+4. Access Modifier
+- default : hanya bisa diakses oleh kelas dalam satu package atau kelas itu sendiri
+- private : hanya bisa diakses oleh kelasnya sendiri
+- public : bisa diakses di semua kelas
+- protected : bisa diakses di dalam satu package, satu kelas dan subkelas
+- penulisan atau pemberian access modifier bisa di variabel, method, kelas
+- keyword static :
+	* static dapat digunakan untuk membuat sebuah atribut/variabel, method, dan class
+	* kalau static, maka atribut2 yang digunakan juga harus menggunakan static
+	* dapat digunakan secara langsung nama, tidak perlu memanggil nama tampungan
+
+
+5. Package & Imports
+-  package digunakan untuk mengatur kelas yang ada di dalam Java
+-  kelas-kelas yang berada di luar package atau package berbeda dapat dipanggil menggunakan import
+
+
+6. Encapsulation
+-  membungkus atribut/variabel kedalam suatu method
+-  kebanyakan menggunakan variable private
+-  variabel disembunyikan dari class dan package lain (private) dan hanya dapat diakses atau diubah value atributnya dengan menggunakan suatu method
+-  setiap atribut/variable terdiri dari 2 method:
+   - fungsi dan procedure
+
+7. Java Beans
+-  implementasi dari encapsulation, bedanya disini sudah di set dalam pembuatan methodnya
+-  terdiri dari 2 method get untuk mengambil data dan set untuk memodifikasi data
+-  dapat digunakan untuk semua tipe data, tetapi untuk tipe data boolean, menggunakan is dan set
+-  biasa disebut settergetter atau dalam netBeans bisa diakses dengan klik kanan Insert Code dan pilih setter and getter

@@ -1,0 +1,58 @@
+Faktorial
+
+Class Faktorial bekerja untuk menghitung suatu perhitungan faktorial dengan prinsip matematika pada umumnya, program berjalan dengan 
+tahapan sebagai berikut :
+1. Menginisiasi dua variabel dengan tipe data long (ukuran 64 bit) yaitu batas dengan nilai 10 dan faktorial dengan nilai 1
+2. Menjalankan perulangan for dengan nilai awalan 0 yang diinisiasi ke dalam variabel i dengan batas nilai i kurang dari nilai variabel 
+batas artinya perulangan berhenti pada nilai variabel i < nilai variabel batas dan nilai i ditambahkan dengan 1 tiap loopnya
+3. Menginisiasi variabel faktorial dengan nilai 1
+4. Menjalankan perulangan for dengan nilai awalan 2 yang diinisiasi ke dalam variabel faktor dengan batas nilai variabel faktor < i dan 
+nilai faktor ditambahkan dengan 1 tiap loopnya
+5. Mengalikan nilai variabel faktorial dengan nilai variabel faktor kemudian disimpan ke dalam variabel faktorial, proses berulang 
+hingga mencapai batas atau dapat diartikan loop berhenti ketika faktor < i bernilai false
+6. Menampilkan hasil faktorial dengan format (i)! adalah (nilai faktorial)
+
+Keterangan tambahan :
+Program terdapat kesalahan, syarat program faktorial agar dapat berjalan adalah jika isi variabel faktorial dapat berubah dengan 
+mengalikan nilai variabel tersebut dengan faktor artinya operasi ini akan mengalikan bilangan faktorial (nilai sebelumnya) dengan 
+bilangan faktor yang ingin dicari.
+Misalnya untuk batas bilangan 3, maka untuk perulangan yang pertama akan menjalankan hingga faktorial ke 2 karena pada faktorial ke dua 
+batas yang dibuat pada perulangan for yang kedua terpenuhi artinya pada faktorial di atas 1 perulangan for di dalamnya atau yang kedua 
+harus dieksekusi karena perulangan for tersebut yang mengoperasikan nilai faktorial sebelumnya dengan bilangan faktor untuk menjalankan 
+operasi perkalian sesuai dengan aturan faktorial.
+Kesalahan dideteksi pada batas yang dibuat pada perulangan for yang kedua karena sebelumnya batasnya faktor < i maka untuk kasus 
+bilangan faktor 3, perulangan for yang kedua baru dieksekusi ketika nilai faktor = 2 kurang dari 3 karena kondisi ini bernilai true dan 
+seterusnya dengan kondisi nilai faktor terus ditambahkan dengan angka satu tiap perulangannya. Pada kondisi ini operasi faktorial tidak 
+sesuai dengan yang diharapkan karena pada 2! outputnya masih bernilai satu padahal seharusnya bernilai 2*1 = 2 dst.
+
+Solusi :
+Untuk dapat menjalankan program sesuai dengan yang diharapkan maka batas pada perulangan for yang kedua diubah menjadi faktor <= i untuk 
+dapat mengeksekusi perkalian pada variabel faktorial dengan nilai faktor. Untuk kasus nilai faktor 3 maka program akan mengeksekusi 
+perulangan for kedua saat faktor <= i yaitu pada 2 <= 2 (memenuhi), pada 2 <= 2 maka faktorial akan bernilai 1 * 2 = 2 dst. 
+
+Perulangan Do While
+
+Class PerulanganDoWhile menampilkan bilangan pecahan secara acak dan berhenti pada kondisi jika r<0.99d atau nilai r kurang dari 0.99 
+(double) false, program berjalan dengan tahapan sebagai berikut :
+1. Menginisiasi variabel r dengan nilai 0 bertipe double (bilangan riil 64 bit)
+2. Melakukan operasi do yaitu menyimpan nilai random pada variabel r dan mencetak nilai variabel r tersebut jika situasi while terpenuhi 
+yaitu r < 0.99d
+
+Keterangan tambahan :
+Secara sederhana program ini menampilkan bilangan riil random berulangan kali selama situasi while yaitu r < 0.99d terpenuhi atau 
+bernilai true dan berhenti ketika r < 0.99d bernilai false.
+Yang dilakukan do while adalah mengeksekusi yang berada di dalam do baru kemudian dicek nilainya pada while.
+
+Perulangan For 2
+
+Class PerulanganFor2 menghitung nilai dari luas lingkaran dengan tahapan sebagai berikut :
+1. Perulangan for diinisiasi dengan nilai awalan berupa variabel jari bertipe bilangan riil 64 bit bernilai 1.0 dengan batasan nilai 
+variabel jari <= 2.0 dan tiap perulangan dieksekusi maka nilai variabel ditambah dengan bilangan riil 0.2
+2. Mencetak hasil perhitungan dengan format Radius = (nilai jari-jari) Luas = (pi*r*r)
+
+Perulangan While
+
+Class PerulanganWhile melakukan operasi yang sama dengan perulangan do while yaitu menampilkan bilangan riil 64 bit random kemudian 
+mencetaknya. Yang membedakan adalah pada program ini mengecek terlebih dahulu jika nilai r<0.99d terpenuhi baru melakukan (do) operasi 
+di dalamnya yaitu menggenerate bilangan riil secara acak lalu menyimpan ke variabel r dan mencetak variabel tersebut dan berhenti hingga 
+r<0.99d bernilai false.

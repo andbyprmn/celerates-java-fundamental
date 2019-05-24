@@ -1,0 +1,21 @@
+Latihan 6 :
+
+this 		: merupakan keyword yang digunakan untuk memanggil atribut 
+Overloading 	: merupakan kemampuan untuk membuat nama method 		   		  yang sama dalam satu kelas tetapi berbeda parameter, 		 			  didalam overloading juga method yang sama harus			  		  memiliki tipe data berbeda.                    
+Constructor	: Merupakan method khusus yang dijalankan secara 		                 	  otomatis saat sebuah objek dibuat 
+AccessModifier 	: merupakan akses dari suatu kelas, method dan data 
+                               contoh access adalah public, default, protected dan private 
+package 		: merupakan penamaan atau penempatan dari class di 	                 	 	  dalam java agar lebih terstruktur, sering kali package di 		  	  	  artikan sebagai folder
+import 		: merupakan suatu perintah untuk memasukan method atau  
+                               suatu perintah dalam pemrograman java sehingga perintah 
+                               tersebut dapat aktif dan berfungsi
+                              import juga dapat menghubungkan class dalam package yang 
+                              berbeda dengan mendeklarasikan import java diikuti dengan 
+                              package dengan class yang akan dilibatkan           
+Encapsulation 	: merupakan metode untuk membundling data dan method 
+                               di dalam kelas 
+                               penulisannya sendiri dalam mendeklarasikan variabel harus 		  		  menggunakan access modifier private 
+Javabeans 	: merupakan implementasi dari setter dan getter
+                               
+                   
+                                                           

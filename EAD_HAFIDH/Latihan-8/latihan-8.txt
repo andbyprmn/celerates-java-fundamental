@@ -1,0 +1,50 @@
+#INNER CLASS
+-Class yang berada di dalam suatu Class
+-Cara Pembuatan:
+-----------------------------------------------------
+	public class NamaClass{
+
+	    public class NamaInnerClass{
+		//atribut, method, bla bla
+	    }
+	}
+-----------------------------------------------------
+-Cara Pembuatan Objek:
+-----------------------------------------------------
+	NamaClass objNamaClass = new NamaClass();
+	NamaInnerClass objInner = ogjNamaClass.new NamaInnerClass;
+-----------------------------------------------------
+-Inner class di dalam inner class (jadi ada 3 level class) bisa dibuat, 
+cara pembuatan class dan cara buat objeknya kurang lebih sama.
+
+#INHERITANCE
+-Proses menurunkan sifat (atribut, method)
+-Hanya atribut atau method private yang tidak bisa diturunkan
+-Cara Pembuatan Inheritance Class
+	public class Anak extends OrangTua{
+	
+	}
+-Method di class OrangTua bisa dipanggil dari objek Class Anak
+
+#OVERRIDING & SUPER
+OVERRIDING
+-Overriding: Deklarasi ulang method yang sudah ada di class OrangTua di 
+dalam class Anak
+-Method yang dieksekusi adalah method yang berada di Anak
+SUPER
+-super adalah keyword untuk memanggil method class OrangTua dari 
+sebuah method di class Anak
+-cara penulisan: 
+------------------------------------------------------------------
+	public class Anak{
+		public void methodAnak(){
+			super.methodOrangTua();
+		}
+	}
+------------------------------------------------------------------
+
+#POLYMORPHISM
+-Kebanyakan-rupaan objek
+-Suatu objek bisa berubah bentuk menjadi bentuk lain (bisa jadi parameter 
+dari sebuah method misalnya)
+-sebuah kelas dapat disamarkan menjadi kelas orang tua

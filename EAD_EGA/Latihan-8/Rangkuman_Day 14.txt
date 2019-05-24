@@ -1,0 +1,55 @@
+Inner Class
+
+	- Kelas yang dibentuk di dalam kelas
+	- Cara pembuatan inner class sama seperti membuat class biasa, perbedaannya inner class dibentuk di dalam kelas yang sudah dibuat
+
+Contoh :
+public class NamaKelas{
+	
+	public class innerClass{
+	
+	}
+}
+
+call the inner class
+
+NamaKelas namaObjek = new NamaKelas();
+
+NamaInnerClass namaObjekInner = namaObjek. New NamaInnerClass();
+
+
+Inheritance
+
+	- Merupakan suatu proses menurunkan sifat (atribut, method) dari suatu kelas utama ke kelas lainnya
+	- Atau biasa diistilahkan dengan kelas orang tua yang mewarisi atribut dan method ke suatu kelas anak
+	- Setiap kelas utama/kelas orang tua dapat mewarisi lebih dari satu kelas anak
+	- Namun setiap kelas anak hanya dapat mewarisi satu kelas orang tua
+	- Di dalam Java untuk melakukan pewarisan, biasa menggunakan keyword extends
+
+Overriding
+
+	- Merupakan suatu proses mendeklarasikan ulang suatu method yang sudah ada di kelas orang tua
+	- Yang akan dibaca ketika dipanggil adalah method kelas pada kelas anak (setelah method dideklarasi ulang), sedangkan method yang dipanggil di kelas orang tua, valuenya akan berubah sesuai dengan value yang dideklarasikan di kelas anak
+	
+Keyword super
+
+	- Keyword untuk memanggil method di kelas orang tua
+	- Dideklarasikan atau dibuat di kelas anak
+	- Menandakan bahwa value dari suatu method di kelas anak adalah milik kelas orang tua
+
+Polymorphism
+
+	- Kebanyakrupaan objek/objek yang memiliki banyak bentuk, bisa dari kelas parent namun value-nya bisa dipanggil menggunakan kelas turunan 
+	- Sebuah kelas bisa bertingkah laku atau memiliki sifat kelas turunannya (kelas parent atau super namun bisa memiliki kelas turunan juga)
+	- Sebuah kelas dapat disamarkan menjadi kelas parent (super)
+
+Memanggil Polymorphism :
+OrangTua namaObjek = new KelasAnak();
+
+OrangTua namaObjek;
+
+KelasAnakA objAnakKelasA = new KelasAnakA();
+KelasAnakB objAnakKelasB = new KelasAnakB();
+
+namaObjek = objAnakKelasA;
+namaObjek = objAnakKelasB;
