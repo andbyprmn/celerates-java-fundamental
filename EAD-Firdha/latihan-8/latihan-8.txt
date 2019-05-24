@@ -1,0 +1,60 @@
+========================================Rangkuman Materi Java Fundamental===============================================
+
+==================================================24 May 2019===========================================================
+
+* Inner Class
+  - kelas yang dibuat didalam kelas yang telah kita buat
+  - cara pembuatannya sama seperti kelas biasa, syaratnya harus sudah ada kelas yang sudah dibuat terlebih dahulu
+  - contoh: 
+	public class Keluarga {
+ 
+    		public class Ayah{
+        		public int umur;
+    		}
+	}
+  **di dalam kelas Keluarga dibuat lagi kelas baru bernama Ayah
+
+
+* Inheritance(Pewarisan)
+  - suatu proses menurunkan sifat(atribut, method) dari suatu kelas utama ke kelas lainnya
+  - kelas orang tua mewariskan atribut dan method ke suatu kelas anak
+  - setiap kelas utama/orang tua dapat mewarisi lebih dari satu kelas anak, tetapi tidak bisa sebaliknya
+  - ditandai dengan "extends" disamping deklarasi nama kelas
+  - dengan adanya "extends", kelas anak dapat menggunakan method dan atau mengubah nilai di method orang tua
+  - contoh penulisan :
+	public class Anak extends Keluarga {
+    		public void alamat() {
+        		System.out.println("Jakarta");
+    		}
+
+	}
+
+
+* Overriding
+  - suatu proses mendeklarasikan ulang suatu method yang sudah ada dikelas orang tua
+  - yang akan dibaca adalah value dari method kelas anak (setelah method dideklarasi ulang). 
+    Sedangkan di method orang tua, valuenya akan berubah sesuai value di kelas orang tua
+
+
+* Keyword Super
+  - untuk memanggil method dikelas orangtua
+  - dideklarasikan atau dibuat kelas anak
+  - menandakan bahwa suatu value dari suatu method dikelas anak adalah milik kelas orangtua
+  - nilai dari method akan diambil dari nilai method di kelas orang tua
+  - contoh penulisan :
+	public void alamatParrent () {
+        	super.alamat();
+    	}
+
+
+* Polymorphism
+  - kebanyak-rupaan objek (objek yg memiliki banyak bentuk), bisa dari kelas parrent namun value nya bisa dipanggil dengan menggunakan kelas turunan
+  - sebuah objek bisa memiliki sifat kelas turunannya
+  - sebuah objek bisa disamarkan menjadi kelas parrent
+  - sebuah objek juga bisa dijadikan parameter
+  - memanggil polymorphism:
+	OrangTua namaObjek = new kelasAnak ();   ---> untuk anak hanya satu
+
+	OrangTua namaObjek;                                   ---> untuk anaknya lebih dari 1
+	kelasAnakA objekAnakKelasA = new kelasAnakA () ;
+	namaObjek = objekAnakKelasA;
