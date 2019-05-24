@@ -1,0 +1,72 @@
+oop merupakan kepanjangan dari ObjectOrientedProgram didefinisikan sebagai paradigma di dalam pemrograman yang berbasis kepada object. oop terinspirasi 
+dari model object dalam keadaan sehari-hari. Tujuan diciptakan oop adalah untuk 
+mempermudah pengembangan program dengan cara mengikuti pendekatan model 
+yang ada didalam kehidupan sehari-hari.
+
+Beberapa istilah yang digunakan didalam OOP 
+1.  class dan object 
+2.  method : suatu method akan mendefinisikan perilaku object yang dibuat dari 
+                    class, dapat berupa fungsi atau prosedur 
+3.  member : merupakan semua yang dideklarasikan di dalam class
+4.  access modifier : merupakan akses dari suatu class, method dan data
+                               contoh modifier adalah default, protected, public, private
+5. encapsulation : merupakan metode untuk membundling data dan method 
+                            di dalam class
+                          - Deklarasi atributnya menggunakan access modifier private
+    fungsi encapsulation = dapat melakukan sebuah perintah apapun sebelum 
+                                      dijalankan.
+	
+   contoh public class NamaKelas{
+		private String nama;
+		
+		//fungsi 
+		public String getNama(){
+		     return this.nama; 
+		}
+		//procedure
+		public void setNama(String nama){
+		     this.nama = nama;
+		}
+	 }                                    
+
+
+
+
+6. Inheritance : pewarisan, suatu class dapat diturunkan dari class lainnya,
+                        sehingga mewarisi data dan method dari class tersebut.
+7. Interface : layaknya seperti class tetapi hanya berisi  method signature 
+                    (nama, parameter dan retun)
+
+Materi hari kamis, 23 Mei 2019 
+
+
+- Keyword this 
+- Overloading : -	kemampuan untuk membuat nama method yang sama 
+                        	dalam suatu kelas, tetapi berbeda parameternya.
+                       -	didalam Overloading tidak boleh ada dua method yang memiliki
+                             tipe data sama 
+
+                      - 	contoh namaMethodSama(String nama parameter){
+		}
+		contoh namaMethodSama(String nama parameter, String nama
+                                                                     parameter b){
+		}
+		contoh namaMethodSama(int nama parameter){
+		} 
+                     
+- Constructor : 	merupakan method khusus yang dijalankan secara otomatis 
+ 		saat sebuah objek dibuat 
+		
+		perbedaan dengan suatu method adalah dapat dijalankan 
+                             secara langsung hanya dengan memanggil objeknya
+
+- keyword statis : 	
+
+
+
+
+Java beans : merupakan implementasi dari encapsulitation
+
+
+
+
