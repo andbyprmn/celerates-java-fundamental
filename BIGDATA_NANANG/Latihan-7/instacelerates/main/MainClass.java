@@ -1,12 +1,12 @@
 package com.instacelerates.main;
 import com.instacelerates.model.Feed;
 import com.instacelerates.model.Story;
-/**
- *
- * @author Nanang
- */
+import com.instacelerates.model.insta;
+
 public class MainClass {
     public static void main(String[] args) {
+        
+        insta objinsta = new insta();
     
         System.out.println("==== Latihan 7 Enscapsulation ====");
         System.out.println();
@@ -25,6 +25,7 @@ public class MainClass {
         System.out.println("Caption Story : " + cobastory.getCaption());
         
          System.out.println();
+        
         //Feed
         cobafeed.setFoto("Senyum manja");
         System.out.println("Foto Feed : " + cobafeed.getFoto());
