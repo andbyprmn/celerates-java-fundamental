@@ -12,7 +12,30 @@ package celeratesjavafundamental;
 public class CeleratesJavaFundamental {
     
     public static void main(String[] args) {
-       System.out.println("Hello World!");
+      
+        Mobil objMobil = new Mobil();
+        String merkMobil = objMobil.merkMobil;
+        String warnaMobil = objMobil.warnaMobil;
+        String tipeMobil = objMobil.tipeMobil;
+        
+        System.out.println("Brand : " + merkMobil + "\n" 
+                + "Color : " + warnaMobil + "\n"
+                + "Type : " + tipeMobil + "\n");
+        
+        // method procedure
+        String start = "On";
+        objMobil.startEngine(start);
+        
+        String stop = "Off";
+        objMobil.stopEngine(stop);
+        
+        // method function
+        int carSpeed = objMobil.carSpeed();
+        System.out.println(objMobil.carSpeed() + " Km/h");
+        
+        System.out.println("Jarak tempuh = " + objMobil.jarakTempuh(60, 3600));
+        System.out.println("Jarak tempuh = " + objMobil.waktuTempuh(1, 2));
+        
     }
     
 }
