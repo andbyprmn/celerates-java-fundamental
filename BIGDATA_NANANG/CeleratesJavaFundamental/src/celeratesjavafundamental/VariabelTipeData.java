@@ -20,7 +20,7 @@ public class VariabelTipeData {
         System.out.println(name); 
         System.out.println(telp); 
         
-          System.out.println("Nanang Suwandana\n081779590700"); 
+        System.out.println("Nanang Suwandana\n081779590700"); 
           
         
     }

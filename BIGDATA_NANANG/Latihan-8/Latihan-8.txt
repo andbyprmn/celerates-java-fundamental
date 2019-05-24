@@ -1,0 +1,32 @@
+===== Latihan 8 =====
+
+1. Inner Class
+- Suatu class yang dibentuk di dalam class
+- Proses pembuatannya sama seperti class biasa, perbedaannya inner class dibentuk di dalam class yang sudah dibuat
+
+contoh :
+
+public class NamaKelas { ----> kelas pertama
+
+	public class innerClass { ----> inner class
+		}
+}
+
+2. Inheritance
+- Merupakan suatu proses untuk menurunkan sifat (atribut, method) dari suatu kelas utama ke kelas lainnya.
+- Dengan kata lain kelas orang tua dapat mewariskan atribut dan method ke kelas anak
+- Kelas orang tua dapat mewariskan lebih dari satu kelas anak
+- Untuk melakukan pewarisan, hanya dapat dilakukan satu kali extends
+
+3. Overriding
+- Merupakan suatu proses mendeklarasikan ulang suatu method yg sudah ada di kelas orang tua	
+- Yang terbaca adalah method kelas pada kelas anak, sedangkan method  yang dipanggil di kelas orang tua, value nya akan berubah sesuai dengan value yang dideklarasikan di kelas anak
+
+4. Keyword Super
+- Keyword untuk memanggil method di kelas orang tua
+- Dideklarasikan di kelas anak
+- Sebagai indikasi bahwa value di kelas anak adalah milik kelas orang tua
+
+5. Polymorphism
+- Sesuai namanya, polymorphism berasal dari kata poli yang berati "banyak" dan morph yang berarti "bentuk". Jadi polymorphism bermakna memiliki banyak bentuk. 
+- Membuat kelas induk dapat mendefinisikan sebuah method general untuk semua kelas turunannya dan selanjutnya kelas turunan dapat memperbaharui implementasi dari method tersebut secara spesifik
