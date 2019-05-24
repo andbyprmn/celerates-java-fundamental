@@ -1,0 +1,98 @@
+<-- Inner Class -->
+
+Inner class adalah metode untuk membuat kelas di dalam kelas.
+Inner class bisa di deklarasikan dengan modifier private supaya tidak bisa diakses oleh objek dari luar kelas.
+
+Berikut adalah contoh syntax nya :
+
+class Outer_Example {
+   int num;
+   
+   // inner class
+   private class Inner_Example {
+      public void print() {
+         System.out.println("This is an inner class");
+      }
+   }
+   
+   // Accessing the inner class from the method within
+   void display_Inner() {
+      Inner_Example inner = new Inner_Example();
+      inner.print();
+   }
+}
+
+
+<-- Inheritance -->
+
+Inheritance adalah suatu proses dimana satu kelas bisa mengakuisisi methods dan fields dari kelas lain nya.
+Biasa nya untuk menggunakan Inheritance selalu menggunakan keyword extends.
+
+Berikut adalah contoh syntax nya :
+
+class Calculation {
+   int z;
+	
+   public void addition(int x, int y) {
+      z = x + y;
+      System.out.println("The sum of the given numbers:"+z);
+   }
+	
+   public void Subtraction(int x, int y) {
+      z = x - y;
+      System.out.println("The difference between the given numbers:"+z);
+   }
+}
+
+public class My_Calculation extends Calculation {
+   public void multiplication(int x, int y) {
+      z = x * y;
+      System.out.println("The product of the given numbers:"+z);
+   }
+	
+   public static void main(String args[]) {
+      int a = 20, b = 10;
+      My_Calculation demo = new My_Calculation();
+      demo.addition(a, b);
+      demo.Subtraction(a, b);
+      demo.multiplication(a, b);
+   }
+}
+
+
+<-- Overriding & Super -->
+
+Biasa digunakan untuk mendefinisikan perilaku yang spesifik untuk kelas anak, 
+hal ini berarti kelas anak bisa menggunakan metode kelas induk tergantung daripada kebutuhan nya.
+
+Berikut adalah contoh syntax nya :
+
+class Keluarga {
+   public void alamat() {
+      System.out.println("Cibitung");
+   }
+}
+
+class Anak extends Keluarga {
+   public void alamat() {
+      System.out.println("Bandung");
+   }
+
+   public void alamatParent() {
+      super.alamat();
+   }
+}
+
+public class MainOverriding {
+
+   public static void main(String[] args) {
+        Anak objAnak = new Anak();
+        objAnak.alamat();	// output Bandung
+        objAnak.alamatParent();	// output Cibitung
+    }
+}
+ 
+
+<-- Polymorphism -->
+
+Polymorphism adalah salah satu kemampuan dari object untuk mengambil banyak bentuk.

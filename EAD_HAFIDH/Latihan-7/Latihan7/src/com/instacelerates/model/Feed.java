@@ -9,27 +9,10 @@ package com.instacelerates.model;
  *
  * @author Hafidh Adhi
  */
-public class Feed {
-    private String fotoFeed;
-    private String captFeed;
+public class Feed extends Insta{
+    
     private int likeFeed;
     private String commentFeed;
-
-    public String getFotoFeed() {
-        return fotoFeed;
-    }
-
-    public void setFotoFeed(String fotoFeed) {
-        this.fotoFeed = fotoFeed;
-    }
-
-    public String getCaptFeed() {
-        return captFeed;
-    }
-
-    public void setCaptFeed(String captFeed) {
-        this.captFeed = captFeed;
-    }
 
     public int getLikeFeed() {
         return likeFeed;
