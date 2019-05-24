@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CeleratesJavaFundamental.iml" filepath="$PROJECT_DIR$/CeleratesJavaFundamental.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instacelerates.iml" filepath="$PROJECT_DIR$/instacelerates.iml" />
     </modules>
   </component>
 </project>
