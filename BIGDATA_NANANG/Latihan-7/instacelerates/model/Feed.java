@@ -1,30 +1,8 @@
 package com.instacelerates.model;
 
-/**
- *
- * @author Nanang
- */
-public class Feed {
-    private String foto;
-    private String caption;
+public class Feed extends insta {
     private int like;
     private String comments;
-
-   public String getFoto(){
-       return this.foto;
-	}
-   
-   public void setFoto(String foto){
-       this.foto = foto;
-	}
-   
-   public String getCaption(){
-       return this.caption;
-	}
-   
-   public void setCaption(String caption){
-       this.caption = caption;
-       }
    
     public int getLike(){
        return this.like;
