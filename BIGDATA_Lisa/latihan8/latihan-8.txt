@@ -1,0 +1,37 @@
+                      Rangkuman dari yang sudah dijelaskan
+======================================================================================
+>> Inner Class
+Digunakan untk membuat kelas di dalam kelas dengan metode penulisan sebagai berikut:
+
+public class namaKelas{
+	public class innerClass{
+	}
+  }
+
+// cara memanggil inner class
+namaKelas namaObjek = new namaKelas();
+namaInnerClass namaObjekInner = namaObjek.new namaInnerClass();
+
+>> Inheritance (Pewarisan)
+Merupakan sebuah proses untuk menurukan sifat yaitu berupa atribut/method yang ada
+dalam kelas orang tua kepada kelas anak. Kelas anak bisa mewarisi satu sifat dari
+orang tua. Sedangkan orang tua bisa mewarisi ke banyak kelas anak. Biasanya
+menggunakan syntax sebagai berikut:
+
+public class namaKelasAnak extends namaKelasOrangTua{
+
+  }
+
+>> Overriding & Super
+Digunakan utuk mendeklarasikan ulang method yang ada didalam kelas Orang Tua, yang
+akan dibaca oleh program adalah method yang dideklarasikan pada kelas anak. Kemudian
+untuk memanggil method di dalam kelas yang sama bisa menggunnakan syntax:
+
+public void alamatParent(){
+        super.alamat();
+    }
+
+
+>>Polymorphism
+Adalah keanekaragaman dari objek, dimana objek bisa langsung dipanggil sebagai
+parameter. 
