@@ -1,0 +1,67 @@
+-inner class
+fungsi yg berguna untuk membuat class didalam class dengan cara
+ public namaclaas {
+	public class inner{
+
+	}
+}
+
+cara memanggilnya 
+class namaobj = new class();
+innerclass bebas =  namaobj.new innerclass();
+
+- in heritance
+merupakan class pewarisan sifat (atribut, method) dari suatu kelas utama kelas lainnya
+namun satu kelas anak hanya bisa mewariskan 1 sifat orang tua
+caranya:
+setelah nama class tulis extends nama parentnya
+
+- ovveridding
+merupakan suatu proses mendeklarasikan ulang suatu method yg sudah ada di dekelass orangtua
+
+caranya:
+pada kelas parent buat method 
+ void bergerak(){
+  System.out.println("Kendaraan bergerak!");
+ }
+
+lalu pada class child
+extends parent dan buat method ini
+void bergerak(){
+  System.out.println("Mobil bergerak");
+ }
+
+pada main untuk memanggil
+  //Membuat objek mobil
+  Mobil mobil = new Mobil();
+   
+  //Objek mobil menggunakan method bergerak()
+  mobil.bergerak();
+ }
+jangan lupa import peckage bila beda peckage
+
+-keyword super
+keyword untuk memanggil kelas orangtua dan dideklarasikannya dikelas anak
+
+caranya:
+pada kelas anak untuk memanggil fungsi dari parent tambahkan seperti ini
+    public void alamatparent(){
+        super.alamat();
+    }
+
+ lalu untuk mainnya 
+objanak.alamatparent();
+
+-polymorysmn
+sebuah kelas yang bisa bertingkah laku atau memiliki sifat kelas turunannya dan sebuah 
+kelas yang dapat disamarkan menjadi kelas parent.
+
+caranya:
+memaggilnya kalau anaknya cuman 1 memanggilnya:
+orangtua namaobject = new kelasanakA();
+
+kalau anaknya lebih dari 1:
+kelasAnakA objAnakaKelasA = new KelasAnakA();
+kelasAnakB objAnakaKelasB = new KelasAnakB();
+namaObject = objanakkelasA;
+namaObject = objanakkelasB;
