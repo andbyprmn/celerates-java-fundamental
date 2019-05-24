@@ -3,20 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.instacelerates.model;
+package com.celerates.overriding;
 
 /**
  *
  * @author Hafidh Adhi
  */
-public class Story extends Insta{
-    private String tglStory;
+public class Anak extends Keluarga{
     
-    public String getTglStory() {
-        return tglStory;
+    @Override
+    public void alamat(){
+        System.out.println("Jakarta");
     }
-
-    public void setTglStory(String tglStory) {
-        this.tglStory = tglStory;
+    
+    public void alamatParent(){
+        super.alamat();
     }
+    
 }

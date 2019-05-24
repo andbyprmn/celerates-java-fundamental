@@ -41,6 +41,7 @@ public class PerulanganJava {
         System.out.println("Hasil Penjumlahannya: " + total + "\n\n");
         
         index = 0;
+        
         total = 0;
         System.out.println("===========================================================");
         System.out.println("Hasil dengan Metode Perulangan For");
