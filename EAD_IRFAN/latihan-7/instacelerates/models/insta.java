@@ -1,9 +1,8 @@
-package com.instacelerates.model;
+package com.instacelerates.models;
 
-public class Story {
+public class insta {
     
     private String foto;
-    private String tgl;
     private String caption;
 
     public String getFoto() {
@@ -14,14 +13,6 @@ public class Story {
         this.foto = foto;
     }
 
-    public String getTgl() {
-        return tgl;
-    }
-
-    public void setTgl(String tgl) {
-        this.tgl = tgl;
-    }
-
     public String getCaption() {
         return caption;
     }
@@ -29,5 +20,6 @@ public class Story {
     public void setCaption(String caption) {
         this.caption = caption;
     }
+    
     
 }
