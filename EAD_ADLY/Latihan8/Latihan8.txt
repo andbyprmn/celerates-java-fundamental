@@ -1,0 +1,55 @@
+Rangkuman Latihan 8: 
+
+Inner class : merupakan class yang dibentuk di dalam class 
+                   cara pembuatan inner class ini sama saja dengan pembuatan 
+                   class pada umumnya, akan tetapi sesuai dengan namanya 
+                   letak pembuatannya ada didalam class, untuk lebih jelas dapat 
+                   dilahat pada contoh berikut: 
+
+	    public class Keluarga{
+		public class ayah{
+		    
+		       int Umur; 
+                                    String Nama; 
+		}
+	    }
+ 
+Inheritance : merupakan suatu proses menurunkan sifat(atribut, method) dari 
+                    class induk ke class anak
+                   salah satu fungsi inheritance dapat memangkas penulisan baris 
+                   code 
+
+sebagai contoh, akan diambil studi kasus pada latihan7 : 
+
+dimana class story memiliki atribut: 
+- String foto; 
+- String tgl; 
+- String caption
+
+class feed memiliki atribut: 
+- String foto; 
+- String caption; 
+- int like; 
+- string comment; 
+
+
+terlihat dari dua class di atas memilki kesamaan atribut yaitu String foto dan String caption
+maka kita buat class induk dengan nama class Instacelerates yang berisi atribut yang sama tersebut dari sini kita dapat menyimpulkan bahwa class Instacelerates
+harus memiliki properti atau atribut yang juga dimiliki oleh class feed dan class story
+
+baik pada class story maupun pada class feed keduanya harus ditambahkan kata 
+kunci extends sebagai pernyataan bahwa mereka adalah class turunan dari Instacelerates
+
+Lalu seperti biasa jika kita ingin membuat objek dari class-class tersebut kita 
+menggunakan perintah new, contoh:
+Story stories = new Story();
+
+- Overiding dan super 
+   Secara definisi overiding merupakan proses pendaklarasian ulang suatu method      yang sudah ada di dalam class induk. Pada saaat method tersebut dideklarasikan 
+  ulang pada class anak maka value method yang sebelumnya sudah berada di class
+  induk akan berganti dengan value di class anak.
+
+  super merupakan keyword untuk memanggil method di class induk,   pendeklarasiannya sendiri berada di class anak 
+
+- Polymorphism secara definisi adaalah banyak bentuk, dan merupakan salah satu 
+  contoh konsep oop, yang memiliki kemampuan sebuah method, dapat   mempunyai nama sama tetapi dengan perilaku yang berbeda

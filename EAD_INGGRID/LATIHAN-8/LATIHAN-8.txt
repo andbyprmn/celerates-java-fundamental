@@ -1,0 +1,56 @@
+Ringkasan OOP pada java.
+
+OOP (Object Oriented Programmning) pada Java mempunyai beberapa konsep dasar yaitu :
+1. Class
+2. Enkapsulasi
+3. Pewarisan (Inheritance)
+4. Polimorfisme (Polymorphism)
+
+Berikut ini pembahasan mengenai pewarisan (inheritance) dan polimorfime.
+1. Pewarisan (Inheritance)
+Pada pewarisan kita  dapat melakukan pendfinisian suatu kelas baru dengan mengadopsi sifat/atribut
+pada kelas lain yang sudah ada. Biasanya kelas yang mewariskan sifat/atribut disebut dengan Parent class dan
+kelas yang diwariskan sifat/atribut tersebut disebut Child class. Pewarisan sifat bisa dilakukan secara
+bertingkat. Penggunaan pewarisan ini bertujuan untuk mengefisiensikan kode yang akan ditulis oleh programmer
+sehingga tidak harus mendeklarasikan sebuah variabel berkali-kali pada kelas yang berbeda. Cukup dengan menggunakan
+pewarisan sifat ini.
+
+cara pemanggilan inheritance pada fungsi mian adalah :
+
+namaclassperent namaobjek = new namaclassparent();
+
+2. Innerclass
+Adalah pembuatan kelas di dalam kelas (nested class). Sehingga inner class dalam mengakses semua yang ada pada 
+outer classnya. Pendeklarasian innerclass harus dilakukan jika sudah ada kelas lain yang sudah dideklarasikan
+terlebih dahulu.
+
+cara pemanggilan inner class pada fungsi main ialah :
+namainnerclass namaobjekinner = new namainnerclass();
+nama innerclass namaobjekinner = namaobjek.new namainnerclass();
+
+3. Overridding dan super
+Overridding merupakan pendeklarian ulang suatu method pada class parent class yang sudah ada pada child class. 
+ada beberapa aturan yang harus di perhatikan saat menerapkan overridding yaitu parameter yang terdapat pada
+child class dan parent class harus sama satu sama lain. Sedangkan super adalah pemanggilan method yang ada di parent
+class tapi super di deklarasikan/dibuat di class anak. Keyword 'super' menandakan value dari suatu method di child 
+class adalah milik orangtua.
+
+4. Polimorfis (Polymorphism)
+Merupakan kebanyak-rupaan objek yang bisa memilki banyak bentuk bila dari parent class namun valuenya dapat dipanggil
+menggunakan kelas turunan. Pada polimorfis ini, suatu objek dapat dijadikan berbagai macam bentuk salah satunya ialah
+sebagai parameter dalam sebuah method.
+
+cara pemanggilan polimorfisme pada fungsi main :
+	
+	parentclass namaobjek = new childclass();
+
+karena mempunyai definisi kebanyak rupaan (beragam bentuk) saat pendeklarasian parent class dengan polimorfismes pada 
+fungsi main dapat langsung memanggil child classnya.
+
+Jika child class terdapat lebih dari satu maka deklarasinya menjadi :
+	
+	parentclass namaobjek = mew childclass();
+	childclassA objekchildclassA = new childclassA();
+	childclassB objekchildclassB = new childclassB();
+	namaobjek = new objekchildclassA;
+	namaobjek = new objekchildclassB;
