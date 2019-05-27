@@ -1,0 +1,149 @@
+Inner Class adalah
+class yang di dalamnya dapat ditaruh class lagi seperti misalnya di kelas keluarga terdapat kelas ayah
+dimana di dalamnnya terdapat atribut nama tinggi berat badan
+
+Inheritance adalah pewarisan
+di mana setiap kelas yang memiliki sifat yang sama dapat diwariskan dari induk nya sehingga sifat yang sama dibuat kelas
+induk yang baru
+contoh ada object zombie burung dan serangga memiliki kesamaan attack dan darah 
+tetapi memiliki perbedaan cara serang zombie cakar, burung patuk, dan serangga gigit sehingga dibuat kelas pada setiap
+masing-masing monster dan diwarisi sifat objek induk berupa attack dan darah
+
+Overriding dan super
+overriding di sini mirip dengan inheritance dimana sebuah fungsi atau 
+method dari superclass (kelas induk) yang ditulis kembali pada subclassnya (kelas anak)
+Sebagai contoh di kelas banguan datar ada kelas segitiga persegi,dan lingkaran
+mereka memiliki kesamaan dalam mencari rumus keliling dan luas akan tetapi setiap bangun datar memiliki rumus berbeda
+Sehingga Parameter pada fungsi atau mothod overriding di subclass/kelas anak harus sama dengan parameter yang terdapat pada superclass/kelas induk
+nah ketika ingin mengakses nilai maka biasanya nilai this yang kita gunakan untuk kelas sejenis kali ini
+menggunakan class super yang digunakan untuk akses nilai class induk walaupun
+nama atau methodnya sama
+
+Polymorphism
+dapat digunakan ketika proses untuk merepresentasikan satu bentuk ke dalam banyak
+bentuk. 
+Sebagai contoh objek manusia memiliki aktivitasmakan minum tidur
+
+kemudian dapat dibuat objek subclass dari manusia dengan menggunakan funsi extends
+public class Siswa extends Manusia {
+  
+}
+sehingga nanti si siswa juga memili aktivitas dengan manusia
+public class Manusia {
+  
+  
+ void makan(){
+  System.out.println("Manusia makan");
+ }
+  
+ void tidur(){
+  System.out.println("Manusia tidur");
+ }
+  
+ void bergerak(){
+  System.out.println("Manusia bergerak");
+ }
+ 
+}
+
+public class Siswa extends Manusia {
+  
+ @Override
+ void makan(){
+  System.out.println("Siswa makan");
+ }
+  
+ @Override
+ void tidur(){
+  System.out.println("Siswa tidur");
+ }
+  
+ @Override
+ void bergerak(){
+  System.out.println("Siswa bergerak");
+ }
+  
+}
+selain itu juga dapat dibuat pada subclass lain seperti karyawan, professor
+Sehingga ketika di print tidak perlu dirulis berulah kali ketika nama method sama
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+//Class Test untuk mendemonstrasikan polymorphism
+public class Test {
+  
+ public static void main(String[] args) {
+   
+  //Mendeklarasikan array dengan tipe Manusia.
+  //Dengan kata lain sebagai array yang memegang objek dari
+  //tipe manusia
+  Manusia [] manusia = new Manusia [4];
+   
+  //Perhatikan, anda bisa menyimpan subclass apa saja dari
+  //tipe Manusia di dalam array Manusia.
+  manusia[0] = new Siswa();
+  manusia[1] = new Karyawan();
+  manusia[2] = new Programmer();
+  manusia[3] = new Professor();
+   
+  //Sekarang, ketika anda melakukan loop
+  //terhadap array tersebut, dan memanggil method dari class Manusia
+  //maka setiap objek akan melakukan hal yang benar atau
+  //objek akan menggunakan method yang ada di classnya masing-masing!
+  for (int i = 0; i < manusia.length; i++){
+   manusia[i].makan();
+   manusia[i].tidur();
+   manusia[i].bergerak();
+   System.out.println();
+  }
+   
+ }
+ 
+}
+
+Output: 
+
+Siswa makan
+Siswa tidur
+Siswa bergerak
+
+Karyawan makan
+Karyawan tidur
+Karyawan bergerak
+
+Programmer makan
+Programmer tidur
+Programmer bergerak
+
+Professor makan
+Professor tidur
+Professor bergerak
