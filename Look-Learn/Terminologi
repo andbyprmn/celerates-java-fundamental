@@ -1,0 +1,4 @@
+DAO (Data Access Object)
+-   A helper class that handless low-level JDBC calls to database
+-   Popular Java design pattern
+

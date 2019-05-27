@@ -1,0 +1,4 @@
+Mengoneksikan Java dengan database MySQL
+    - Pada struktur project terdapat folder library
+    - Klik kanan pada folder Library -> Add Library... -> pilih MYSQL JDBC Driver
+    - Kemudian terakhir, klik add library
